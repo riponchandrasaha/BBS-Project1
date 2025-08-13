@@ -4,16 +4,18 @@ import { IoIosMenu } from 'react-icons/io'
 
 function App() {
   return (
-    <div className="min-h-screen w-full bg-[#D0E6E8] mx-auto my-4 ">
+    <div className="min-h-screen w-full bg-[#D0E6E8] mx-auto ">
+      {/* Section 1 */}
       {/* Navbar */}
-      <div className="navbar shadow-sm border-0 bg-[#D0E6E8] px-25">
+      <div className="navbar shadow-sm border-0 bg-[#D0E6E8] md:px-25 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <button className="btn btn-accent text-white rounded-[40px] flex gap-[6px] pt-[6px] pr-[8px] pb-[6px] pl-[12px]">
+              {/* responsive button */}
+              <button className="btn bg-[#00A89B] text-white rounded-[40px] gap-[6px] pt-1.5 pr-2 pb-1.5 pl-3">
                 Menu
                 <svg
-                  className=" rounded-[40px] w-5 h-5 shrink-0 bg-[rgba(186,198,213,0.25)]"
+                  className="rounded-[40px] w-5 h-5 shrink-0 bg-[rgba(186,198,213,0.25)]"
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
                   height="30"
@@ -29,11 +31,12 @@ function App() {
                 </svg>
               </button>
             </div>
+            {/* after clicking menu button */}
             <ul
               tabIndex={0}
               className="p-2 mt-3 shadow menu menu-sm dropdown-content bg-[#fff] rounded-box  md:w-full"
             >
-              <div className="justify-between md:w-full md:flex bg-[#fff]">
+              <div className="justify-between w-full md:flex bg-[#fff]">
                 <div className="md:w-full text-[#003757] font-[Qualy] text-4xl md:text-[28px] font-qualy leading-normal">
                   <ul>
 
@@ -45,7 +48,7 @@ function App() {
                 </div>
                 <div className="md:w-1/2">
 
-                  <ul className='text-4xl font-qualy text-black'>
+                  <ul className='text-4xl text-black font-qualy'>
                     <li><a className='text-4xl'>Claims</a></li>
                     <li><a className='text-4xl'>Awards</a></li>
                     <li><a className='text-4xl'>News</a></li>
@@ -54,13 +57,14 @@ function App() {
                   </ul>
                 </div>
               </div>
-              <button className="flex md:w-full p-[16px_22px] justify-center items-center  rounded-[40px] text-white  bg-[#00A89B]">
+              <button className="flex w-full p-[16px_22px] justify-center items-center  rounded-[40px] text-white  bg-[#00A89B]">
                 Leave a Review
               </button>
             </ul>
           </div>
 
-          <a className="text-xl md:w-[204px] h-[40px]">
+          {/* Logo - visible on mobile and desktop, hidden on tablet */}
+          <a className="text-xl md:w-[204px] h-[40px] md:hidden lg:block">
             <img
               src="/p1.png"
               alt="Button Image"
@@ -70,6 +74,18 @@ function App() {
 
         </div>
 
+        {/* Centered logo for tablet - visible only on md screens */}
+        <div className="justify-center navbar-center md:flex lg:hidden">
+          <a className="text-xl w-[204px] h-[40px]">
+            <img
+              src="/p1.png"
+              alt="Button Image"
+              className="w-[204px] h-[40px] shrink-0"
+            />
+          </a>
+        </div>
+
+        {/* Desktop navigation - hidden on mobile and tablet */}
         <div className="navbar-center hidden lg:flex justify-center gap-[10px]  rounded-[45px] font-title ">
           <ul className="gap-6 text-[16px] font-normal menu menu-horizontal p-[18px_22px] ">
             {['Brokers', 'Scam Alerts', 'Regulators', 'Claims', 'Awards', 'News', 'About Us'].map(item => (
@@ -79,6 +95,8 @@ function App() {
             ))}
           </ul>
         </div>
+
+
 
         <div className="flex items-center gap-3 navbar-end">
           {/* Search Icon visible on all devices */}
@@ -92,21 +110,27 @@ function App() {
       </div>
 
       {/* Section 2 */}
-      <section className="flex justify-between mt-9 px-25">
-        <div className=" flex flex-col justify-between items-start w-[711px] h-[338px] flex-shrink-0">
-          <h2 className="text-3xl font-bold">Find the Best Financial Broker for You</h2>
-          <p className="mt-4 text-lg text-black">
+      <section className="flex justify-between mt-9 mb-9 px-25 text-[#003757] font-[Qualy] text-[46px] font-normal leading-normal">
+        {/* div 1 */}
+        <div className=" flex flex-col justify-between items-start w-1/2 h-[338px] flex-shrink-0 py-[20px]">
+        {/* text */}
+        <div className="text-3xl font-bold" >
+           <h2 >Find the Best Financial</h2>
+           <h2> Broker for You</h2>
+        </div>
+          
+          <p className="mt-4 text-lg text-[#003757] font-[Inter Tight] text-[18px] font-normal leading-normal">
             Since its inception, Investari has been the trusted source for expert, data-driven reviews
             of financial brokers across all sectors, including forex, stocks, bonds, crypto, and more.
             Our comprehensive analysis helps traders and investors find the best brokers suited to their needs,
             backed by years of hands-on research and unbiased insights.
           </p>
-          <button className="btn btn-wide  bg-[#00A89B] rounded-[40px] flex justify-center items-center text-white w-[300px] h-[62px] p-[20px_22px]  gap-2 flex-shrink-0">Search all brokers</button>
+          <button className=" btn btn-wide  bg-[#00A89B] rounded-[40px] flex justify-center items-center text-white w-[300px] h-[62px] p-[20px_22px]  gap-2 flex-shrink-0">Search all brokers</button>
         </div>
-        {/* card */}
-        <div className='flex gap-5 '>
+        {/* div 2*/}
+        <div className='lg:grid lg:grid-cols-2 lg:gap-[9px] '>
           {/* Cards 1*/}
-          <div className='grid grid-rows-3 gap-5 '>
+          <div className='lg:grid lg:grid-rows-3 lg:gap-[9px] '>
             {/* 1 */}
             <div className="card w-96 bg-base-100 card-xs shadow-sm rounded-[45px]">
               <div className="flex items-center justify-evenly">
@@ -119,7 +143,7 @@ function App() {
                     <path d="M10.6667 2.67969C12.8867 2.79969 14 3.61969 14 6.66635V10.6664C14 13.333 13.3333 14.6664 10 14.6664H6C2.66667 14.6664 2 13.333 2 10.6664V6.66635C2 3.62635 3.11333 2.79969 5.33333 2.67969" stroke="#003757" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
                 </div>
-                <h2 className="card-title">Explore best brokers </h2>
+                <h2 className="card-title">Explore best brokers <br /> By category </h2>
 
                 {/* logo2 */}
                 <div>
@@ -146,7 +170,7 @@ function App() {
                     </defs>
                   </svg>
                 </div>
-                <h2 className="card-title">Explore best brokers </h2>
+                <h2 className="card-title">Explore best brokers <br /> reviews </h2>
 
                 {/* logo2 */}
                 <div>
@@ -169,7 +193,7 @@ function App() {
                     <path d="M11.333 10.0003V14.667H13.9997V10.0003C13.9997 9.26699 13.733 8.66699 12.933 8.66699H12.3997C11.5997 8.66699 11.333 9.26699 11.333 10.0003Z" stroke="#003757" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
                 </div>
-                <h2 className="card-title">Browse our broker reviews</h2>
+                <h2 className="card-title">Browse our broker reviews <br /> ide-by-side </h2>
 
                 {/* logo2 */}
                 <div>
@@ -382,6 +406,44 @@ background: url(<path-to-image>) lightgray -10.851px -2.154px / 114.967% 142.308
 
             {/* 1 */}
             <div className='grid grid-cols-4 gap-2 p-4 mt-4 '>
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-base-100">
+                <div className='flex justify-between'>
+                  <div className='flex gap-2 p-2'>
+                    <img className='w-[55px] h-[55px] rounded-[30px]' src="../public/logo1.png" alt="" srcset="" />
+                    <h1>IS Markets</h1>
+                  </div>
+
+                  <div className='flex justify-evenly'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                      <path d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z" stroke="#00A89B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416" stroke="#00A89B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <img className='w-[49px] h-[25px]' src="../public/logo2.png" alt="" srcset="" />
+
+                  </div>
+
+                </div>
+
+                {/*  */}
+                <div className='flex '>
+                  <div className="rating">
+                    <input type="radio" name="rating-2" className="bg-orange-400 mask mask-star-2" aria-label="1 star" />
+                    <input type="radio" name="rating-2" className="bg-orange-400 mask mask-star-2" aria-label="2 star" defaultChecked />
+                    <input type="radio" name="rating-2" className="bg-orange-400 mask mask-star-2" aria-label="3 star" />
+                    <input type="radio" name="rating-2" className="bg-orange-400 mask mask-star-2" aria-label="4 star" />
+                    <input type="radio" name="rating-2" className="bg-orange-400 mask mask-star-2" aria-label="5 star" />
+                  </div>
+
+                  <p>4.5 (70 Reviews)</p>
+                </div>
+                <p>Emma Watson</p>
+
+                <p>General Risk Warning: CFDs are leveraged products. Trading in CFDs  carries a high level of risk thus may no</p>
+
+                <div className="mt-11">
+                  <button className="rounded-[40px] btn text-white btn-block bg-[#00A89B]">View Broker Profile</button>
+                </div>
+              </div>
               <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-base-100">
                 <div className='flex justify-between'>
                   <div className='flex gap-2 p-2'>
