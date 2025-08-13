@@ -131,7 +131,7 @@ function App() {
           <button className=" btn btn-wide  bg-[#00A89B] rounded-[40px] flex justify-center items-center text-white w-[300px] h-[62px] p-[20px_22px]  gap-2 flex-shrink-0">Search all brokers</button>
         </div>
         {/* div 2*/}
-        <div className='lg:grid lg:grid-cols-2 gap-[9px]  '>
+        <div className='lg:grid lg:grid-cols-2 lg:gap-[9px]  '>
           {/* Cards 1*/}
           <div className='lg:grid lg:grid-rows-3 lg:gap-[9px] '>
             {/* 1 */}
@@ -227,11 +227,11 @@ function App() {
       </section>
 
       {/* section3 */}
-      <section className='bg-[#E7EDF0] rounded-tl-[50px] rounded-tr-[50px] rounded-bl-none rounded-br-none  mt-9'>
+      <section className='bg-[#E7EDF0] w-[1720px] h-[30px] rounded-tl-[50px] rounded-tr-[50px] rounded-bl-none rounded-br-none p-[30px] mt-9'>
         {/* card 1 */}
-        <div className='px-25 py-9'>
-          <div className="w-full  card card-border bg-base-100 rounded-[50px] gap-4 p-9 ">
-            <h1>How Investari Tests, Reviews, and Ranks Brokers</h1>
+        <div className='px-25 py-9 '>
+          <div className="gap-4  bg-base-100 p-9">
+            <h1 className=' text-[30px] text-[#003757] '>How Investari Tests, Reviews, and Ranks Brokers</h1>
             <div className="flex justify-between">
               <h2 className="w-1/2 ">CInvestari's broker review process follows a rigorous methodology. Our financial experts, with extensive industry experience, evaluate brokers across multiple categories using hundreds of data points. We conduct live testing, real account evaluations, and in-depth comparisons to ensure accuracy. These comprehensive reviews allow us to rank brokers based on their strengths, catering to different trading styles, asset classes, and regions.</h2>
 
