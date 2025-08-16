@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 
-@plugin "daisyui";
-/* App.css */
+/* @plugin "daisyui";
+/* App.css */ */
 body {
   background-color: #E7EDF0;
 }
