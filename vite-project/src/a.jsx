@@ -1,142 +1,219 @@
-<div className=" ">
-            <div className='flex gap-2'>
-              <div className='flex w-[44px] h-[44px] p-[16px] justify-center items-center gap-[10px] rounded-[32px] border-[1px] border-[#0037571f]'>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M2 14.667H14" stroke="#003757" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M3.73332 5.58594H2.66667C2.3 5.58594 2 5.88594 2 6.2526V11.9993C2 12.3659 2.3 12.6659 2.66667 12.6659H3.73332C4.09998 12.6659 4.39998 12.3659 4.39998 11.9993V6.2526C4.39998 5.88594 4.09998 5.58594 3.73332 5.58594Z" stroke="#003757" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M8.53312 3.45996H7.46647C7.0998 3.45996 6.7998 3.75996 6.7998 4.12663V12C6.7998 12.3666 7.0998 12.6666 7.46647 12.6666H8.53312C8.89979 12.6666 9.19979 12.3666 9.19979 12V4.12663C9.19979 3.75996 8.89979 3.45996 8.53312 3.45996Z" stroke="#003757" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M13.3329 1.33301H12.2663C11.8996 1.33301 11.5996 1.63301 11.5996 1.99967V11.9997C11.5996 12.3663 11.8996 12.6663 12.2663 12.6663H13.3329C13.6996 12.6663 13.9996 12.3663 13.9996 11.9997V1.99967C13.9996 1.63301 13.6996 1.33301 13.3329 1.33301Z" stroke="#003757" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-              </div>
-              <h1 className='text-[30px]'>Discover the Best Brokers for Every Market</h1>
-            </div>
-            <div className='w-1/2'>
-              Whether you're trading stocks, forex, bonds, or crypto, Investari's expert guides and rankings help you find the best brokers tailored to your investment goals and trading strategies. Explore our top-rated financial broker reviews today.
+
+      
+      <section className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-1 gap-[20px] sm:grid sm:grid-cols-1 grid grid-cols-1 p-[30px] text-[#003757] lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] sm:mr-[5px] sm:ml-[5px]">
+        {/* div 1 */}
+        <div className="grid grid-cols-1">
+          {/* text */}
+          <div className="gap-[20px]">
+            <div className="text-[46px] font-bold text-[#003757] font-[Qualy] leading-normal">
+              <h2>Find the Best Financial</h2>
+              <h2> Broker for You</h2>
             </div>
 
-            {/* div2 */}
-            <div className='grid grid-cols-2'>
-              {/* 1 */}
-              <div className=' gap-[10px] grid grid-cols-2'>
-                <div className="  border-[1px] border-[#0037571f] w-[407px] bg-white  rounded-[45px]">
-
-                  <div className="items-center card-body">
-                    <svg className='rounded-[65.455px] bg-[#FFC338] w-[40px] h-[40px] flex-shrink-0' xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
-                      <path d="M10.5 8.33333V15M10.5 8.33333C10.5 6.49238 11.9924 5 13.8333 5H27.1667C29.0076 5 30.5 6.49238 30.5 8.33333M10.5 8.33333H8.83333C6.99238 8.33333 5.5 9.82571 5.5 11.6667C5.5 13.5076 6.99238 15 8.83333 15H10.5M10.5 15C10.5 20.5228 14.9771 25 20.5 25M30.5 15V8.33333M30.5 15C30.5 20.5228 26.0228 25 20.5 25M30.5 15H32.1667C34.0076 15 35.5 13.5076 35.5 11.6667C35.5 9.82571 34.0076 8.33333 32.1667 8.33333L30.5 8.33333M20.5 25V28.3333M20.5 28.3333C20.5 32.0152 21.8181 35 25.5 35M20.5 28.3333C20.5 32.0152 19.1819 35 15.5 35M25.5 35H15.5M25.5 35H27.1667M15.5 35H13.8333" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                    </svg>
-
-
-                    <h1>Best Brokers</h1>
-
-                  </div>
-
-
-                </div>
-                <div className="border-[1px] border-[#0037571f] w-[407px] bg-white  rounded-[45px]">
-                  <div className="items-center card-body">
-                    <svg className='rounded-[65.455px] bg-[#FFC338] w-[40px] h-[40px] flex-shrink-0' xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
-                      <path d="M10.5 8.33333V15M10.5 8.33333C10.5 6.49238 11.9924 5 13.8333 5H27.1667C29.0076 5 30.5 6.49238 30.5 8.33333M10.5 8.33333H8.83333C6.99238 8.33333 5.5 9.82571 5.5 11.6667C5.5 13.5076 6.99238 15 8.83333 15H10.5M10.5 15C10.5 20.5228 14.9771 25 20.5 25M30.5 15V8.33333M30.5 15C30.5 20.5228 26.0228 25 20.5 25M30.5 15H32.1667C34.0076 15 35.5 13.5076 35.5 11.6667C35.5 9.82571 34.0076 8.33333 32.1667 8.33333L30.5 8.33333M20.5 25V28.3333M20.5 28.3333C20.5 32.0152 21.8181 35 25.5 35M20.5 28.3333C20.5 32.0152 19.1819 35 15.5 35M25.5 35H15.5M25.5 35H27.1667M15.5 35H13.8333" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                    </svg>
-
-
-                    <h1>Best Brokers</h1>
-
-                  </div>
-
-
-                </div>
-                <div className="border-[1px] border-[#0037571f] w-[407px] bg-white  rounded-[45px]">
-                  <div className="items-center card-body">
-                    <svg className='rounded-[65.455px] bg-[#FFC338] w-[40px] h-[40px] flex-shrink-0' xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
-                      <path d="M10.5 8.33333V15M10.5 8.33333C10.5 6.49238 11.9924 5 13.8333 5H27.1667C29.0076 5 30.5 6.49238 30.5 8.33333M10.5 8.33333H8.83333C6.99238 8.33333 5.5 9.82571 5.5 11.6667C5.5 13.5076 6.99238 15 8.83333 15H10.5M10.5 15C10.5 20.5228 14.9771 25 20.5 25M30.5 15V8.33333M30.5 15C30.5 20.5228 26.0228 25 20.5 25M30.5 15H32.1667C34.0076 15 35.5 13.5076 35.5 11.6667C35.5 9.82571 34.0076 8.33333 32.1667 8.33333L30.5 8.33333M20.5 25V28.3333M20.5 28.3333C20.5 32.0152 21.8181 35 25.5 35M20.5 28.3333C20.5 32.0152 19.1819 35 15.5 35M25.5 35H15.5M25.5 35H27.1667M15.5 35H13.8333" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                    </svg>
-
-
-                    <h1>Best Brokers</h1>
-
-                  </div>
-
-
-                </div>
-                <div className="border-[1px] border-[#0037571f] w-[407px] bg-white  rounded-[45px]">
-                  <div className="items-center card-body">
-                    <svg className='rounded-[65.455px] bg-[#FFC338] w-[40px] h-[40px] flex-shrink-0' xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
-                      <path d="M10.5 8.33333V15M10.5 8.33333C10.5 6.49238 11.9924 5 13.8333 5H27.1667C29.0076 5 30.5 6.49238 30.5 8.33333M10.5 8.33333H8.83333C6.99238 8.33333 5.5 9.82571 5.5 11.6667C5.5 13.5076 6.99238 15 8.83333 15H10.5M10.5 15C10.5 20.5228 14.9771 25 20.5 25M30.5 15V8.33333M30.5 15C30.5 20.5228 26.0228 25 20.5 25M30.5 15H32.1667C34.0076 15 35.5 13.5076 35.5 11.6667C35.5 9.82571 34.0076 8.33333 32.1667 8.33333L30.5 8.33333M20.5 25V28.3333M20.5 28.3333C20.5 32.0152 21.8181 35 25.5 35M20.5 28.3333C20.5 32.0152 19.1819 35 15.5 35M25.5 35H15.5M25.5 35H27.1667M15.5 35H13.8333" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                    </svg>
-
-
-                    <h1>Best Brokers</h1>
-
-                  </div>
-                </div><div className="card-body">
-
-
-
-                </div>
-              </div>
-              {/* 2 */}
-              <div className="">
-                <div className="w-full h-full bg-base-100 rounded-[45px] border border-[rgba(0,55,87,0.12)] p-6">
-                  {/* a */}
-                  <div>
-                    <h1>By Type</h1>
-                    <div className='flex gap-5 mt-3'>
-                      <div className="text-[#00A89B] text-[16px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
-                        Best Fixed Income Brokers
-                      </div>
-                      <div className="text-[#00A89B] text-[16px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
-                        Best Fixed Income Brokers
-                      </div>
-                      <div className="text-[#00A89B] text-[16px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
-                        Best Fixed Income Brokers
-                      </div>
-                    </div>
-                  </div>
-                  {/* b */}
-                  <div>
-                    <h1>By Type</h1>
-                    <div className='flex gap-5 mt-3'>
-                      <div className="text-[#00A89B] text-[16px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
-                        Best Experienced Brokers
-                      </div>
-                      <div className="text-[#00A89B] text-[16px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
-                        Best New Brokers
-                      </div>
-                      <div className="text-[#00A89B] text-[16px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
-                        Best Global Brokers
-                      </div>
-                    </div>
-                  </div>
-                  {/* c */}
-                  <div>
-                    <h1>By Type</h1>
-                    <div className='flex gap-5 mt-3'>
-                      <div className="text-[#00A89B] text-[16px] flex  justify-center rounded-[20px] px-1 py-1 bg-[rgba(0,168,155,0.10)]">
-                        Americas
-                      </div>
-                      <div className="text-[#00A89B] text-[16px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
-                        Europe
-                      </div>
-                      <div className="text-[#00A89B] text-[16px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
-                        Asia
-                      </div>
-                    </div>
-                  </div>
-
-                  <h1>See all the brokers accepting clients from:</h1>
-                  {/* ** */}
-                  <div className="flex justify-between gap-2 mt-4">
-                    <button className="flex h-[62px] p-[18px] justify-between items-center flex-1 rounded-[40px] border border-[rgba(0,55,87,0.12)] text-center ">Read Full Methodology</button>
-                    <button className="flex h-[62px] p-[18px] justify-between items-center flex-1 rounded-[40px] bg-[rgba(0,55,87,0.12)] text-[#00A89B] text-[18px]  ">Read Full Methodology</button>
-                  </div>
-
-
-
-
-
-                </div>
-              </div>
-
-            </div>
-
+            <p className="mt-4 text-lg md:text-[14px] text-[#003757] font-[Inter Tight] text-[18px] font-normal ">
+              Since its inception, Investari has been the trusted source for
+              expert, data-driven reviews of financial brokers across all
+              sectors, including forex, stocks, bonds, crypto, and more. Our
+              comprehensive analysis helps traders and investors find the best
+              brokers suited to their needs, backed by years of hands-on
+              research and unbiased insights.
+            </p>
           </div>
+
+          {/* PRIMARY CTA BUTTON - Full width on medium devices */}
+          <button className="btn font-normal bg-[#00A89B] rounded-[40px] flex text-white w-full md:w-full lg:w-[300px] text-[18px] h-[62px] p-[20px_22px] justify-center items-center">
+            Search all brokers
+          </button>
+        </div>
+        {/* div 2*/}
+        <div className="grid grid-cols-1 lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 sm:grid sm:grid-cols-1 gap-[9px]">
+          {/* Cards 1*/}
+          <div className="grid grid-rows-3 gap-[9px] ">
+            {/* 1 */}
+            <div className=" w-full  bg-white  rounded-[45px] lg:p-[20px] md:p-[15px] sm:p-[12px] p-[12px]">
+              <div className="flex items-center justify-between p-4">
+                {/* logo1 */}
+                <div className="rounded-[26.182px] border-[0.818px] border-[#0037571f] w-[36px] h-[36px] p-[13.091px] gap-[8.182px] flex justify-center items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                  >
+                    <path
+                      d="M4 6.09961H7.50001"
+                      stroke="#003757"
+                      stroke-width="0.750002"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4 8.09961H6.19001"
+                      stroke="#003757"
+                      stroke-width="0.750002"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M5 3.00001H7.00001C8.00001 3.00001 8.00001 2.5 8.00001 2C8.00001 1 7.50001 1 7.00001 1H5C4.5 1 4 1 4 2C4 3.00001 4.5 3.00001 5 3.00001Z"
+                      stroke="#003757"
+                      stroke-width="0.750002"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M8.00002 2.00977C9.66502 2.09977 10.5 2.71477 10.5 4.99977V7.99978C10.5 9.99979 10 10.9998 7.50002 10.9998H4.50001C2 10.9998 1.5 9.99979 1.5 7.99978V4.99977C1.5 2.71977 2.335 2.09977 4.00001 2.00977"
+                      stroke="#003757"
+                      stroke-width="0.750002"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <h2 className="lg:text-[26px] md:text-[20px] sm:text-[14px] text-14px">
+                  Explore best brokers <br /> By category{" "}
+                </h2>
+
+                {/* logo2 */}
+                <div className="flex w-[36px] h-[36px] p-[13.091px] justify-center items-center gap-[8.182px] rounded-[26.182px] bg-[#E7EDF0]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                  >
+                    <path
+                      d="M13.7606 0.989927C13.7606 0.575714 13.4248 0.239927 13.0106 0.239927L6.26056 0.239927C5.84635 0.239927 5.51056 0.575713 5.51056 0.989927C5.51056 1.40414 5.84635 1.73993 6.26056 1.73993H12.2606V7.73993C12.2606 8.15414 12.5963 8.48993 13.0106 8.48993C13.4248 8.48993 13.7606 8.15414 13.7606 7.73993L13.7606 0.989927ZM1.52008 13.5411L13.5409 1.52026L12.4802 0.459597L0.459416 12.4804L1.52008 13.5411Z"
+                      fill="#003757"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            {/* 2 */}
+            <div className="w-full bg-white rounded-[45px] lg:p-[20px] md:p-[15px] sm:p-[12px] p-[12px]">
+              <div className="flex items-center justify-evenly">
+                {/* logo1 */}
+                <div className="rounded-[26.182px] border-[0.818px] border-[#0037571f] w-[36px] h-[36px] p-[13.091px] gap-[8.182px] flex justify-center items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_500_4684)">
+                      <path
+                        d="M3.58114 15.6769C3.40584 15.6769 3.23177 15.6222 3.0832 15.5148C2.80646 15.3142 2.67719 14.9695 2.75251 14.6368L3.78183 10.1027L0.291017 7.04131C0.0344181 6.8173 -0.0636068 6.46256 0.0417426 6.13797C0.147092 5.81398 0.43372 5.58461 0.773085 5.55323L5.39186 5.13391L7.21795 0.860487C7.3526 0.546514 7.65925 0.34375 7.99996 0.34375C8.34066 0.34375 8.64731 0.546514 8.78196 0.859754L10.6081 5.13391L15.2261 5.55323C15.5662 5.58387 15.8528 5.81398 15.9582 6.13797C16.0635 6.46195 15.9661 6.8173 15.7095 7.04131L12.2187 10.1021L13.248 14.6361C13.3235 14.9695 13.1941 15.3142 12.9174 15.5142C12.6414 15.7141 12.2734 15.7295 11.9827 15.5548L7.99996 13.1748L4.01719 15.5562C3.88254 15.6361 3.73251 15.6769 3.58114 15.6769ZM7.99996 12.1495C8.15133 12.1495 8.30123 12.1901 8.436 12.2701L12.1948 14.5182L11.2233 10.2387C11.154 9.93408 11.2574 9.61608 11.4927 9.41002L14.7888 6.51932L10.428 6.12332C10.114 6.09463 9.844 5.89724 9.72131 5.60792L7.99996 1.5751L6.27652 5.60853C6.15518 5.89589 5.88515 6.09329 5.57191 6.12197L1.21047 6.51798L4.50646 9.40868C4.74255 9.61535 4.84582 9.93274 4.77587 10.238L3.80515 14.5175L7.56391 12.2701C7.69856 12.1901 7.84858 12.1495 7.99996 12.1495ZM5.35658 5.21656C5.35658 5.21656 5.35658 5.21729 5.35584 5.2179L5.35658 5.21656ZM10.642 5.2146L10.6427 5.21595C10.6427 5.21521 10.6427 5.21521 10.642 5.2146Z"
+                        fill="#003757"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_500_4684">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <h2 className="lg:text-[26px] md:text-[20px] sm:text-[14px] text-14px">
+                  Explore best brokers <br /> reviews{" "}
+                </h2>
+
+                {/* logo2 */}
+                <div className="flex w-[36px] h-[36px] p-[13.091px] justify-center items-center gap-[8.182px] rounded-[26.182px] bg-[#E7EDF0]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                  >
+                    <path
+                      d="M13.7606 0.989927C13.7606 0.575714 13.4248 0.239927 13.0106 0.239927L6.26056 0.239927C5.84635 0.239927 5.51056 0.575713 5.51056 0.989927C5.51056 1.40414 5.84635 1.73993 6.26056 1.73993H12.2606V7.73993C12.2606 8.15414 12.5963 8.48993 13.0106 8.48993C13.4248 8.48993 13.7606 8.15414 13.7606 7.73993L13.7606 0.989927ZM1.52008 13.5411L13.5409 1.52026L12.4802 0.459597L0.459416 12.4804L1.52008 13.5411Z"
+                      fill="#003757"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            {/* 3 */}
+            <div className="w-full bg-white rounded-[45px] lg:p-[20px] md:p-[15px] sm:p-[12px] p-[12px]">
+              <div className="flex items-center justify-evenly">
+                {/* logo1 */}
+                <div className="rounded-[26.182px] border-[0.818px] border-[#0037571f] w-[36px] h-[36px] p-[13.091px] gap-[8.182px] flex justify-center items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                  >
+                    <path
+                      d="M1.33301 14.667H14.6663"
+                      stroke="#003757"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M6.5 2.66634V14.6663H9.5V2.66634C9.5 1.93301 9.2 1.33301 8.3 1.33301H7.7C6.8 1.33301 6.5 1.93301 6.5 2.66634Z"
+                      stroke="#003757"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M2 6.66634V14.6663H4.66667V6.66634C4.66667 5.93301 4.4 5.33301 3.6 5.33301H3.06667C2.26667 5.33301 2 5.93301 2 6.66634Z"
+                      stroke="#003757"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M11.333 10.0003V14.667H13.9997V10.0003C13.9997 9.26699 13.733 8.66699 12.933 8.66699H12.3997C11.5997 8.66699 11.333 9.26699 11.333 10.0003Z"
+                      stroke="#003757"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <h2 className="lg:text-[26px] md:text-[20px] sm:text-[14px] text-14px">
+                  Browse our broker reviews <br /> ide-by-side{" "}
+                </h2>
+
+                {/* logo2 */}
+                <div className="flex w-[36px] h-[36px] p-[13.091px] justify-center items-center gap-[8.182px] rounded-[26.182px] bg-[#E7EDF0]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                  >
+                    <path
+                      d="M13.7606 0.989927C13.7606 0.575714 13.4248 0.239927 13.0106 0.239927L6.26056 0.239927C5.84635 0.239927 5.51056 0.575713 5.51056 0.989927C5.51056 1.40414 5.84635 1.73993 6.26056 1.73993H12.2606V7.73993C12.2606 8.15414 12.5963 8.48993 13.0106 8.48993C13.4248 8.48993 13.7606 8.15414 13.7606 7.73993L13.7606 0.989927ZM1.52008 13.5411L13.5409 1.52026L12.4802 0.459597L0.459416 12.4804L1.52008 13.5411Z"
+                      fill="#003757"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* card 2 */}
+          <div className="w-full bg-white rounded-[45px]">
+            <div className="">
+              <div className="">
+                <img
+                  className="pt-[30px] pr-[65.263px] pb-[30.261px] pl-[65px] " // Make the image responsive and rounded at the top
+                  src="/Group 12.png"
+                  alt="Broker Reviews"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
