@@ -380,7 +380,7 @@ function App() {
                 </defs>
               </svg>
             </div>
-            <h1 className="font-qualy text-black lg:text-[30px] md:text-[20px] sm:text-[14px] text-[14px]">
+            <h1 className="font-qualy w-[721px] text-black lg:text-[30px] md:text-[20px] sm:text-[14px] text-[14px]">
               How Investari Tests, Reviews, and Ranks Brokers
             </h1>
           </div>
@@ -679,18 +679,18 @@ function App() {
             {/* 1 */}
             <div className="grid grid-cols-1 gap-[10px] mt-[10px] lg:grid-cols-4 lg:grid md:grid md:grid-cols-2 sm:grid sm:grid-cols-1">
               <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
-                <div className="flex justify-between">
-                  <div className="flex gap-2 p-2">
+                <div className="flex justify-between items-center">
+                  <div className="flex gap-2 p-2 items-center">
                     <img
                       className="w-[55px] h-[55px] rounded-[30px]"
                       src="../public/logo1.png"
                       alt=""
                       srcset=""
                     />
-                    <h1 className="font-qualy text-black">IS Markets</h1>
+                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
                   </div>
 
-                  <div className="flex justify-evenly">
+                  <div className="flex justify-evenly ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21"
@@ -758,7 +758,7 @@ function App() {
                     />
                   </div>
 
-                  <p className="text-black">4.5 (70 Reviews)</p>
+                  <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
                 </div>
                 <p  className="text-black">Emma Watson</p>
 
@@ -773,578 +773,8 @@ function App() {
                   </button>
                 </div>
               </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] ">
-                <div className="flex justify-between">
-                  <div className="flex gap-2 p-2">
-                    <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
-                      src="../public/logo1.png"
-                      alt=""
-                      srcset=""
-                    />
-                    <h1  className="text-black font-qualy">IS Markets</h1>
-                  </div>
-
-                  <div className="flex justify-evenly">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="21"
-                      height="20"
-                      viewBox="0 0 21 20"
-                      fill="none"
-                    >
-                      <path
-                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    <img
-                      className="w-[49px] h-[25px]"
-                      src="../public/logo2.png"
-                      alt=""
-                      srcset=""
-                    />
-                  </div>
-                </div>
-
-                {/*  */}
-                <div className="flex ">
-                  <div className="rating">
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="1 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="2 star"
-                      defaultChecked
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="3 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="4 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="5 star"
-                    />
-                  </div>
-
-                  <p className="text-black">4.5 (70 Reviews)</p>
-                </div>
-                <p className=" text-black">Emma Watson</p>
-
-                <p className="text-black">
-                  General Risk Warning: CFDs are leveraged products. Trading in
-                  CFDs carries a high level of risk thus may no
-                </p>
-
-                <div className="mt-11">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B]">
-                    View Broker Profile
-                  </button>
-                </div>
-              </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)]">
-                <div className="flex justify-between">
-                  <div className="flex gap-2 p-2">
-                    <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
-                      src="../public/logo1.png"
-                      alt=""
-                      srcset=""
-                    />
-                    <h1  className="text-black font-qualy">IS Markets</h1>
-                  </div>
-
-                  <div className="flex justify-evenly">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="21"
-                      height="20"
-                      viewBox="0 0 21 20"
-                      fill="none"
-                    >
-                      <path
-                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    <img
-                      className="w-[49px] h-[25px]"
-                      src="../public/logo2.png"
-                      alt=""
-                      srcset=""
-                    />
-                  </div>
-                </div>
-
-                {/*  */}
-                <div className="flex ">
-                  <div className="rating">
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="1 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="2 star"
-                      defaultChecked
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="3 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="4 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="5 star"
-                    />
-                  </div>
-
-                  <p className="text-black">4.5 (70 Reviews)</p>
-                </div>
-                <p className=" text-black">Emma Watson</p>
-
-                <p className="text-black">
-                  General Risk Warning: CFDs are leveraged products. Trading in
-                  CFDs carries a high level of risk thus may no
-                </p>
-
-                <div className="mt-11">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B]">
-                    View Broker Profile
-                  </button>
-                </div>
-              </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] ">
-                <div className="flex justify-between">
-                  <div className="flex gap-2 p-2">
-                    <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
-                      src="../public/logo1.png"
-                      alt=""
-                      srcset=""
-                    />
-                    <h1 className="font-qualy text-black">IS Markets</h1>
-                  </div>
-
-                  <div className="flex justify-evenly">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="21"
-                      height="20"
-                      viewBox="0 0 21 20"
-                      fill="none"
-                    >
-                      <path
-                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    <img
-                      className="w-[49px] h-[25px]"
-                      src="../public/logo2.png"
-                      alt=""
-                      srcset=""
-                    />
-                  </div>
-                </div>
-
-                {/*  */}
-                <div className="flex ">
-                  <div className="rating">
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="1 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="2 star"
-                      defaultChecked
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="3 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="4 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="5 star"
-                    />
-                  </div>
-
-                  <p className=" text-black">4.5 (70 Reviews)</p>
-                </div>
-                <p className=" text-black">Emma Watson</p>
-
-                <p className=" text-black">
-                  General Risk Warning: CFDs are leveraged products. Trading in
-                  CFDs carries a high level of risk thus may no
-                </p>
-
-                <div className="mt-11">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B]">
-                    View Broker Profile
-                  </button>
-                </div>
-              </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] ">
-                <div className="flex justify-between">
-                  <div className="flex gap-2 p-2">
-                    <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
-                      src="../public/logo1.png"
-                      alt=""
-                      srcset=""
-                    />
-                    <h1 className=" text-black font-qualy">IS Markets</h1>
-                  </div>
-
-                  <div className="flex justify-evenly">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="21"
-                      height="20"
-                      viewBox="0 0 21 20"
-                      fill="none"
-                    >
-                      <path
-                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    <img
-                      className="w-[49px] h-[25px]"
-                      src="../public/logo2.png"
-                      alt=""
-                      srcset=""
-                    />
-                  </div>
-                </div>
-
-                {/*  */}
-                <div className="flex ">
-                  <div className="rating">
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="1 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="2 star"
-                      defaultChecked
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="3 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="4 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="5 star"
-                    />
-                  </div>
-
-                  <p className=" text-black">4.5 (70 Reviews)</p>
-                </div>
-                <p className=" text-black">Emma Watson</p>
-
-                <p className="text-black">
-                  General Risk Warning: CFDs are leveraged products. Trading in
-                  CFDs carries a high level of risk thus may no
-                </p>
-
-                <div className="mt-11">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B]">
-                    View Broker Profile
-                  </button>
-                </div>
-              </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)]">
-                <div className="flex justify-between">
-                  <div className="flex gap-2 p-2">
-                    <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
-                      src="../public/logo1.png"
-                      alt=""
-                      srcset=""
-                    />
-                    <h1 className=" text-black font-qualy">IS Markets</h1>
-                  </div>
-
-                  <div className="flex justify-evenly">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="21"
-                      height="20"
-                      viewBox="0 0 21 20"
-                      fill="none"
-                    >
-                      <path
-                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    <img
-                      className="w-[49px] h-[25px]"
-                      src="../public/logo2.png"
-                      alt=""
-                      srcset=""
-                    />
-                  </div>
-                </div>
-
-                {/*  */}
-                <div className="flex ">
-                  <div className="rating">
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="1 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="2 star"
-                      defaultChecked
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="3 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="4 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="5 star"
-                    />
-                  </div>
-
-                  <p className=" text-black">4.5 (70 Reviews)</p>
-                </div>
-                <p className=" text-black">Emma Watson</p>
-
-                <p className=" text-black">
-                  General Risk Warning: CFDs are leveraged products. Trading in
-                  CFDs carries a high level of risk thus may no
-                </p>
-
-                <div className="mt-11">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B]">
-                    View Broker Profile
-                  </button>
-                </div>
-              </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] ">
-                <div className="flex justify-between">
-                  <div className="flex gap-2 p-2">
-                    <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
-                      src="../public/logo1.png"
-                      alt=""
-                      srcset=""
-                    />
-                    <h1 className=" text-black font-qualy">IS Markets</h1>
-                  </div>
-
-                  <div className="flex justify-evenly">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="21"
-                      height="20"
-                      viewBox="0 0 21 20"
-                      fill="none"
-                    >
-                      <path
-                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    <img
-                      className="w-[49px] h-[25px]"
-                      src="../public/logo2.png"
-                      alt=""
-                      srcset=""
-                    />
-                  </div>
-                </div>
-
-                {/*  */}
-                <div className="flex ">
-                  <div className="rating">
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="1 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="2 star"
-                      defaultChecked
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="3 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="4 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="5 star"
-                    />
-                  </div>
-
-                  <p className=" text-black">4.5 (70 Reviews)</p>
-                </div>
-                <p className=" text-black">Emma Watson</p>
-
-                <p className=" text-black">
-                  General Risk Warning: CFDs are leveraged products. Trading in
-                  CFDs carries a high level of risk thus may no
-                </p>
-
-                <div className="mt-11">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B]">
-                    View Broker Profile
-                  </button>
-                </div>
-              </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] ">
-                <div className="flex justify-between items-centers">
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+                <div className="flex justify-between items-center">
                   <div className="flex gap-2 p-2 items-center">
                     <img
                       className="w-[55px] h-[55px] rounded-[30px]"
@@ -1352,10 +782,10 @@ function App() {
                       alt=""
                       srcset=""
                     />
-                    <h1 className=" text-black font-qualy">IS Markets</h1>
+                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
                   </div>
 
-                  <div className="flex justify-evenly items-center">
+                  <div className="flex justify-evenly ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21"
@@ -1423,17 +853,587 @@ function App() {
                     />
                   </div>
 
-                  <p className=" text-black">4.5 (70 Reviews)</p>
+                  <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
                 </div>
-                <p className=" text-black">Emma Watson</p>
+                <p  className="text-black">Emma Watson</p>
 
-                <p className=" text-black">
+                <p  className="text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
 
                 <div className="mt-11">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B]">
+                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                    View Broker Profile
+                  </button>
+                </div>
+              </div>
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+                <div className="flex justify-between items-center">
+                  <div className="flex gap-2 p-2 items-center">
+                    <img
+                      className="w-[55px] h-[55px] rounded-[30px]"
+                      src="../public/logo1.png"
+                      alt=""
+                      srcset=""
+                    />
+                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                  </div>
+
+                  <div className="flex justify-evenly ">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="21"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <img
+                      className="w-[49px] h-[25px]"
+                      src="../public/logo2.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                </div>
+
+                {/*  */}
+                <div className="flex ">
+                  <div className="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="1 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="2 star"
+                      defaultChecked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="3 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="4 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="5 star"
+                    />
+                  </div>
+
+                  <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
+                </div>
+                <p  className="text-black">Emma Watson</p>
+
+                <p  className="text-black">
+                  General Risk Warning: CFDs are leveraged products. Trading in
+                  CFDs carries a high level of risk thus may no
+                </p>
+
+                <div className="mt-11">
+                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                    View Broker Profile
+                  </button>
+                </div>
+              </div>
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+                <div className="flex justify-between items-center">
+                  <div className="flex gap-2 p-2 items-center">
+                    <img
+                      className="w-[55px] h-[55px] rounded-[30px]"
+                      src="../public/logo1.png"
+                      alt=""
+                      srcset=""
+                    />
+                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                  </div>
+
+                  <div className="flex justify-evenly ">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="21"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <img
+                      className="w-[49px] h-[25px]"
+                      src="../public/logo2.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                </div>
+
+                {/*  */}
+                <div className="flex ">
+                  <div className="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="1 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="2 star"
+                      defaultChecked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="3 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="4 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="5 star"
+                    />
+                  </div>
+
+                  <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
+                </div>
+                <p  className="text-black">Emma Watson</p>
+
+                <p  className="text-black">
+                  General Risk Warning: CFDs are leveraged products. Trading in
+                  CFDs carries a high level of risk thus may no
+                </p>
+
+                <div className="mt-11">
+                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                    View Broker Profile
+                  </button>
+                </div>
+              </div>
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+                <div className="flex justify-between items-center">
+                  <div className="flex gap-2 p-2 items-center">
+                    <img
+                      className="w-[55px] h-[55px] rounded-[30px]"
+                      src="../public/logo1.png"
+                      alt=""
+                      srcset=""
+                    />
+                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                  </div>
+
+                  <div className="flex justify-evenly ">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="21"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <img
+                      className="w-[49px] h-[25px]"
+                      src="../public/logo2.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                </div>
+
+                {/*  */}
+                <div className="flex ">
+                  <div className="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="1 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="2 star"
+                      defaultChecked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="3 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="4 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="5 star"
+                    />
+                  </div>
+
+                  <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
+                </div>
+                <p  className="text-black">Emma Watson</p>
+
+                <p  className="text-black">
+                  General Risk Warning: CFDs are leveraged products. Trading in
+                  CFDs carries a high level of risk thus may no
+                </p>
+
+                <div className="mt-11">
+                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                    View Broker Profile
+                  </button>
+                </div>
+              </div>
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+                <div className="flex justify-between items-center">
+                  <div className="flex gap-2 p-2 items-center">
+                    <img
+                      className="w-[55px] h-[55px] rounded-[30px]"
+                      src="../public/logo1.png"
+                      alt=""
+                      srcset=""
+                    />
+                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                  </div>
+
+                  <div className="flex justify-evenly ">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="21"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <img
+                      className="w-[49px] h-[25px]"
+                      src="../public/logo2.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                </div>
+
+                {/*  */}
+                <div className="flex ">
+                  <div className="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="1 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="2 star"
+                      defaultChecked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="3 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="4 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="5 star"
+                    />
+                  </div>
+
+                  <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
+                </div>
+                <p  className="text-black">Emma Watson</p>
+
+                <p  className="text-black">
+                  General Risk Warning: CFDs are leveraged products. Trading in
+                  CFDs carries a high level of risk thus may no
+                </p>
+
+                <div className="mt-11">
+                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                    View Broker Profile
+                  </button>
+                </div>
+              </div>
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+                <div className="flex justify-between items-center">
+                  <div className="flex gap-2 p-2 items-center">
+                    <img
+                      className="w-[55px] h-[55px] rounded-[30px]"
+                      src="../public/logo1.png"
+                      alt=""
+                      srcset=""
+                    />
+                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                  </div>
+
+                  <div className="flex justify-evenly ">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="21"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <img
+                      className="w-[49px] h-[25px]"
+                      src="../public/logo2.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                </div>
+
+                {/*  */}
+                <div className="flex ">
+                  <div className="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="1 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="2 star"
+                      defaultChecked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="3 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="4 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="5 star"
+                    />
+                  </div>
+
+                  <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
+                </div>
+                <p  className="text-black">Emma Watson</p>
+
+                <p  className="text-black">
+                  General Risk Warning: CFDs are leveraged products. Trading in
+                  CFDs carries a high level of risk thus may no
+                </p>
+
+                <div className="mt-11">
+                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                    View Broker Profile
+                  </button>
+                </div>
+              </div>
+             <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+                <div className="flex justify-between items-center">
+                  <div className="flex gap-2 p-2 items-center">
+                    <img
+                      className="w-[55px] h-[55px] rounded-[30px]"
+                      src="../public/logo1.png"
+                      alt=""
+                      srcset=""
+                    />
+                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                  </div>
+
+                  <div className="flex justify-evenly ">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="21"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <img
+                      className="w-[49px] h-[25px]"
+                      src="../public/logo2.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                </div>
+
+                {/*  */}
+                <div className="flex ">
+                  <div className="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="1 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="2 star"
+                      defaultChecked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="3 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="4 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="5 star"
+                    />
+                  </div>
+
+                  <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
+                </div>
+                <p  className="text-black">Emma Watson</p>
+
+                <p  className="text-black">
+                  General Risk Warning: CFDs are leveraged products. Trading in
+                  CFDs carries a high level of risk thus may no
+                </p>
+
+                <div className="mt-11">
+                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
@@ -1447,9 +1447,9 @@ function App() {
         {/* section 6 */}
         {/*  card 1 */}
 
-        <div className="rounded-[32px] lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] border gap-[12px]  p-[20px] border-[rgba(0,55,87,0.12)] bg-[#fff] mt-4">
+        <div className="rounded-[32px] lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] border gap-[20px]  p-[30px] border-[rgba(0,55,87,0.12)] bg-[#fff] mt-4">
           {/* text */}
-          <div className="flex gap-[20px]">
+          <div className="flex mb-[20px]">
             <div className="flex w-[44px] h-[44px] p-[16px] justify-center items-center gap-[10px] rounded-[32px] border-[1px] border-[#0037571f]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1465,7 +1465,7 @@ function App() {
                 />
               </svg>
             </div>
-            <h1 className="lg:text-[30px] md:text-[20px] sm:text-[14px] text-[14px] font-bold font-qualy">
+            <h1 className="lg:text-[30px] text-black md:text-[20px] sm:text-[14px] text-[14px] font-bold font-qualy">
               Compare Brokers
             </h1>
           </div>
@@ -1476,92 +1476,106 @@ function App() {
 
             <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full">
               {/* a */}
-              <div className="flex gap-2 p-4">
-                <img
-                  className="w-[55px] h-[55px] rounded-[30px]"
-                  src="../public/logo1.png"
-                  alt=""
-                  srcset=""
-                />
-                <p className="font-qualy text-black">IS Markets</p>
-              </div>
-              {/* b */}
-              <div className="flex gap-2 p-4">
-                <img
-                  className="w-[55px] h-[55px] rounded-[30px]"
-                  src="../public/image (2).png"
-                  alt=""
-                  srcset=""
-                />
-                <p className=" text-black">IS Markets</p>
-              </div>
-            </div>
-            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full ">
-              {/* a */}
-              <div className="flex gap-2 p-4">
-                <img
-                  className="w-[55px] h-[55px] rounded-[30px]"
-                  src="../public/logo1.png"
-                  alt=""
-                  srcset=""
-                />
-                <p className=" text-26px text text-black font-qualy">IS Markets</p>
-              </div>
-              {/* b */}
-              <div className="flex gap-2 p-4">
-                <img
-                  className="w-[55px] h-[55px] rounded-[30px]"
-                  src="../public/image (2).png"
-                  alt=""
-                  srcset=""
-                />
-                <p className=" text-26px text-black font-qualy">IS Markets</p>
-              </div>
-            </div>
-            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full ">
-              {/* a */}
-              <div className="flex gap-2 p-4">
-                <img
-                  className="w-[55px] h-[55px] rounded-[30px]"
-                  src="../public/logo1.png"
-                  alt=""
-                  srcset=""
-                />
-                <p className=" text-black font-qualy">IS Markets</p>
-              </div>
-              {/* b */}
               <div className="flex gap-2 p-4 items-center">
                 <img
                   className="w-[55px] h-[55px] rounded-[30px]"
-                  src="../public/image (2).png"
+                  src="../public/logo1.png"
                   alt=""
                   srcset=""
                 />
-                <p className="font-qualy text-black">IS Markets</p>
+                <p className="font-qualy text-black text-[24px]">IS Markets</p>
               </div>
-            </div>
-            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full ">
-              {/* a */}
-              <div className="flex gap-2 p-4">
-                <img
-                  className="w-[55px] h-[55px] rounded-[30px]"
-                  src="../public/image (2).png"
-                  alt=""
-                  srcset=""
-                />
-                <p className="font-qualy text-black">IS Markets</p>
-              </div>
+              <p className="text-[26px] font-qualy text-[#E7EDF0] flex items-center justify-center">Vs</p>
               {/* b */}
-              <div className="flex gap-2 p-4">
+              <div className="flex gap-2 p-4 items-center ">
                 <img
                   className="w-[55px] h-[55px] rounded-[30px]"
                   src="../public/image (2).png"
                   alt=""
                   srcset=""
                 />
-                <p className="font-qualy text-black">IS Markets</p>
+                <p className=" text-black font-qualy text-[26px]">AvaTrade</p>
               </div>
+
             </div>
+
+            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full">
+              {/* a */}
+              <div className="flex gap-2 p-4 items-center">
+                <img
+                  className="w-[55px] h-[55px] rounded-[30px]"
+                  src="../public/logo1.png"
+                  alt=""
+                  srcset=""
+                />
+                <p className="font-qualy text-black text-[24px]">IS Markets</p>
+              </div>
+              <p className="text-[26px] font-qualy text-[#E7EDF0] flex items-center justify-center">Vs</p>
+              {/* b */}
+              <div className="flex gap-2 p-4 items-center ">
+                <img
+                  className="w-[55px] h-[55px] rounded-[30px]"
+                  src="../public/image (2).png"
+                  alt=""
+                  srcset=""
+                />
+                <p className=" text-black font-qualy text-[26px]">AvaTrade</p>
+              </div>
+
+            </div>
+            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full">
+              {/* a */}
+              <div className="flex gap-2 p-4 items-center">
+                <img
+                  className="w-[55px] h-[55px] rounded-[30px]"
+                  src="../public/logo1.png"
+                  alt=""
+                  srcset=""
+                />
+                <p className="font-qualy text-black text-[24px]">IS Markets</p>
+              </div>
+              <p className="text-[26px] font-qualy text-[#E7EDF0] flex items-center justify-center">Vs</p>
+              {/* b */}
+              <div className="flex gap-2 p-4 items-center ">
+                <img
+                  className="w-[55px] h-[55px] rounded-[30px]"
+                  src="../public/image (2).png"
+                  alt=""
+                  srcset=""
+                />
+                <p className=" text-black font-qualy text-[26px]">AvaTrade</p>
+              </div>
+
+            </div>
+            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full">
+              {/* a */}
+              <div className="flex gap-2 p-4 items-center">
+                <img
+                  className="w-[55px] h-[55px] rounded-[30px]"
+                  src="../public/logo1.png"
+                  alt=""
+                  srcset=""
+                />
+                <p className="font-qualy text-black text-[24px]">IS Markets</p>
+              </div>
+              <p className="text-[26px] font-qualy text-[#E7EDF0] flex items-center justify-center">Vs</p>
+              {/* b */}
+              <div className="flex gap-2 p-4 items-center ">
+                <img
+                  className="w-[55px] h-[55px] rounded-[30px]"
+                  src="../public/image (2).png"
+                  alt=""
+                  srcset=""
+                />
+                <p className=" text-black font-qualy text-[26px]">AvaTrade</p>
+              </div>
+
+            </div>
+
+
+
+
+
           </div>
           <button className=" mt-4  h-[62px] w-full p-[20px_22px] text-[#00A89B] text-[18pxc:\Users\SVA\Downloads\image (2).png]  gap-2 self- rounded-[40px] bg-[rgba(0,55,87,0.12)]">
             See All Brokers Comparison
