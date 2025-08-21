@@ -291,7 +291,7 @@ function App() {
                   </svg>
                 </div>
                 <h2 className="lg:text-[26px] md:text-[20px] sm:text-[14px] text-14px font-[Qualy]">
-                  Compare brokers  side-by-side
+                  Compare brokers side-by-side
                 </h2>
 
                 {/* logo2 */}
@@ -380,14 +380,14 @@ function App() {
                 </defs>
               </svg>
             </div>
-            <h1 className="font-qualy lg:text-[30px] md:text-[20px] sm:text-[14px] text-[14px]">
+            <h1 className="font-qualy text-black lg:text-[30px] md:text-[20px] sm:text-[14px] text-[14px]">
               How Investari Tests, Reviews, and Ranks Brokers
             </h1>
           </div>
           {/* text */}
           <div className="lg:grid-cols-2 lg:grid md:grid md:grid-cols-1 gap-[20px] sm:grid sm:grid-cols-1 grid grid-cols-1">
             {/* div1 */}
-            <h2 className=" text-[18px] ">
+            <h2 className=" text-[18px] text-black ">
               CInvestari's broker review process follows a rigorous methodology.
               Our financial experts, with extensive industry experience,
               evaluate brokers across multiple categories using hundreds of data
@@ -398,7 +398,7 @@ function App() {
             </h2>
             {/* div2 */}
             <div className=" grid grid-cols-1 gap-[20px]  ">
-              <p className=" text-[18px]">
+              <p className=" text-[18px] text-black">
                 Our transparent and expert-driven approach makes Investari the
                 go-to platform for identifying top-tier financial brokers.
               </p>
@@ -447,12 +447,12 @@ function App() {
                 />
               </svg>
             </div>
-            <h1 className="lg:text-[30px] md:text-[20px] font-qualy sm:text-[14px] text-[14px] ">
+            <h1 className="lg:text-[30px] md:text-[20px] text-black font-qualy sm:text-[14px] text-[14px] ">
               Discover the Best Brokers for Every Market.
             </h1>
           </div>
           {/* text2 */}
-          <div className="lg:w-1/2 mt-[20px] ">
+          <div className="lg:w-1/2 mt-[20px] text-black ">
             Whether you're trading stocks, forex, bonds, or crypto, Investari's
             expert guides and rankings help you find the best brokers tailored
             to your investment goals and trading strategies. Explore our
@@ -484,7 +484,7 @@ function App() {
                     />
                   </svg>
 
-                  <h1 className=" text-[26px] font-qualy">Best Brokers</h1>
+                  <h1 className=" text-[26px] font-qualy text-black">Best Brokers</h1>
                 </div>
               </div>
               {/* 2 */}
@@ -506,7 +506,7 @@ function App() {
                     />
                   </svg>
 
-                  <h1 className=" text-[26px] font-qualy">Best Brokers</h1>
+                  <h1 className=" text-[26px] font-qualy text-black">Best Platforms</h1>
                 </div>
               </div>
               {/* 3 */}
@@ -528,7 +528,7 @@ function App() {
                     />
                   </svg>
 
-                  <h1 className=" text-[26px] font-qualy">Best Brokers</h1>
+                  <h1 className=" text-[26px] text-black font-qualy">Best Low Fee Brokers</h1>
                 </div>
               </div>
               {/* 4 */}
@@ -550,8 +550,8 @@ function App() {
                     />
                   </svg>
 
-                  <h1 className=" text-[26px] font-qualy text-[#003757]">
-                    Best Brokers
+                  <h1 className=" text-[26px]  font-qualy text-[#003757]">
+                    Best for Beginners
                   </h1>
                 </div>
               </div>
@@ -561,7 +561,7 @@ function App() {
               <div className="w-full h-full bg-white rounded-[45px] border border-[rgba(0,55,87,0.12)] p-6">
                 {/* a */}
                 <div>
-                  <h1 className="text-[26px] font-qualy">By Experience</h1>
+                  <h1 className="text-[26px] font-qualy text-black">Best Low Fee Brokers</h1>
                   {/* 1 */}
                   <div className="flex flex-wrap gap-5">
                     <div className="text-[#00A89B] p-[5px_10px] lg:text-[16px] md:text-[12px] sm:text-[12px] text-[12px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
@@ -579,7 +579,7 @@ function App() {
                 </div>
                 {/* b */}
                 <div>
-                  <h1 className="text-[26px] font-qualy">By Type</h1>
+                  <h1 className="text-[26px] font-qualy text-black">By Type</h1>
                   {/* 1 */}
                   <div className="flex flex-wrap gap-5">
                     <div className="text-[#00A89B] p-[5px_10px] lg:text-[16px] md:text-[12px] sm:text-[12px] text-[12px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
@@ -597,7 +597,7 @@ function App() {
                 </div>
                 {/* c */}
                 <div>
-                  <h1 className="text-[26px] font-qualy">By Region</h1>
+                  <h1 className="text-[26px] font-qualy text-black">By Region</h1>
                   {/* 1 */}
                   <div className="flex flex-wrap gap-5">
                     <div className="text-[#00A89B] p-[5px_10px] lg:text-[16px] md:text-[12px] sm:text-[12px] text-[12px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
@@ -614,12 +614,12 @@ function App() {
                   </div>
                 </div>
 
-                <h1 className="text-[26px] font-qualy">
+                <h1 className="text-[26px] font-qualy text-black">
                   See all the brokers accepting clients from:
                 </h1>
                 {/* ** */}
                 <div className="flex justify-between gap-2 mt-4">
-                  <button className="flex h-[62px] p-[18px] justify-between items-center flex-1 rounded-[40px] border border-[rgba(0,55,87,0.12)] text-center ">
+                  <button className="flex h-[62px] text-black p-[18px] justify-between items-center flex-1 rounded-[40px] border border-[rgba(0,55,87,0.12)] text-center ">
                     Armenia
                   </button>
                   <button className="flex justify-center h-[62px] p-[18px] items-center flex-1 rounded-[40px] bg-[rgba(0,55,87,0.12)] text-[#00A89B] text-[18px]  ">
@@ -671,7 +671,7 @@ function App() {
                   />
                 </svg>
               </div>
-              <h1 className="lg:text-[30px] md:text-[20px] sm:text-[14px] text-[14px] font-bold ">
+              <h1 className="lg:text-[30px] text-black md:text-[20px] sm:text-[14px] text-[14px] font-bold ">
                 Explore Broker Reviews
               </h1>
             </div>
@@ -687,7 +687,7 @@ function App() {
                       alt=""
                       srcset=""
                     />
-                    <h1 className="font-qualy">IS Markets</h1>
+                    <h1 className="font-qualy text-black">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly">
@@ -758,11 +758,106 @@ function App() {
                     />
                   </div>
 
-                  <p>4.5 (70 Reviews)</p>
+                  <p className="text-black">4.5 (70 Reviews)</p>
                 </div>
-                <p>Emma Watson</p>
+                <p  className="text-black">Emma Watson</p>
 
-                <p>
+                <p  className="text-black">
+                  General Risk Warning: CFDs are leveraged products. Trading in
+                  CFDs carries a high level of risk thus may no
+                </p>
+
+                <div className="mt-11">
+                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                    View Broker Profile
+                  </button>
+                </div>
+              </div>
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] ">
+                <div className="flex justify-between">
+                  <div className="flex gap-2 p-2">
+                    <img
+                      className="w-[55px] h-[55px] rounded-[30px]"
+                      src="../public/logo1.png"
+                      alt=""
+                      srcset=""
+                    />
+                    <h1  className="text-black font-qualy">IS Markets</h1>
+                  </div>
+
+                  <div className="flex justify-evenly">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="21"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <img
+                      className="w-[49px] h-[25px]"
+                      src="../public/logo2.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                </div>
+
+                {/*  */}
+                <div className="flex ">
+                  <div className="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="1 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="2 star"
+                      defaultChecked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="3 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="4 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="5 star"
+                    />
+                  </div>
+
+                  <p className="text-black">4.5 (70 Reviews)</p>
+                </div>
+                <p className=" text-black">Emma Watson</p>
+
+                <p className="text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
@@ -773,7 +868,7 @@ function App() {
                   </button>
                 </div>
               </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-base-100">
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)]">
                 <div className="flex justify-between">
                   <div className="flex gap-2 p-2">
                     <img
@@ -782,7 +877,7 @@ function App() {
                       alt=""
                       srcset=""
                     />
-                    <h1>IS Markets</h1>
+                    <h1  className="text-black font-qualy">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly">
@@ -853,11 +948,11 @@ function App() {
                     />
                   </div>
 
-                  <p>4.5 (70 Reviews)</p>
+                  <p className="text-black">4.5 (70 Reviews)</p>
                 </div>
-                <p>Emma Watson</p>
+                <p className=" text-black">Emma Watson</p>
 
-                <p>
+                <p className="text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
@@ -868,7 +963,7 @@ function App() {
                   </button>
                 </div>
               </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-base-100">
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] ">
                 <div className="flex justify-between">
                   <div className="flex gap-2 p-2">
                     <img
@@ -877,7 +972,7 @@ function App() {
                       alt=""
                       srcset=""
                     />
-                    <h1>IS Markets</h1>
+                    <h1 className="font-qualy text-black">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly">
@@ -948,11 +1043,11 @@ function App() {
                     />
                   </div>
 
-                  <p>4.5 (70 Reviews)</p>
+                  <p className=" text-black">4.5 (70 Reviews)</p>
                 </div>
-                <p>Emma Watson</p>
+                <p className=" text-black">Emma Watson</p>
 
-                <p>
+                <p className=" text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
@@ -963,7 +1058,7 @@ function App() {
                   </button>
                 </div>
               </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-base-100">
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] ">
                 <div className="flex justify-between">
                   <div className="flex gap-2 p-2">
                     <img
@@ -972,7 +1067,7 @@ function App() {
                       alt=""
                       srcset=""
                     />
-                    <h1 className="font-qualy">IS Markets</h1>
+                    <h1 className=" text-black font-qualy">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly">
@@ -1043,11 +1138,11 @@ function App() {
                     />
                   </div>
 
-                  <p>4.5 (70 Reviews)</p>
+                  <p className=" text-black">4.5 (70 Reviews)</p>
                 </div>
-                <p>Emma Watson</p>
+                <p className=" text-black">Emma Watson</p>
 
-                <p>
+                <p className="text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
@@ -1058,7 +1153,7 @@ function App() {
                   </button>
                 </div>
               </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-base-100">
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)]">
                 <div className="flex justify-between">
                   <div className="flex gap-2 p-2">
                     <img
@@ -1067,7 +1162,7 @@ function App() {
                       alt=""
                       srcset=""
                     />
-                    <h1>IS Markets</h1>
+                    <h1 className=" text-black font-qualy">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly">
@@ -1138,11 +1233,11 @@ function App() {
                     />
                   </div>
 
-                  <p>4.5 (70 Reviews)</p>
+                  <p className=" text-black">4.5 (70 Reviews)</p>
                 </div>
-                <p>Emma Watson</p>
+                <p className=" text-black">Emma Watson</p>
 
-                <p>
+                <p className=" text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
@@ -1153,7 +1248,7 @@ function App() {
                   </button>
                 </div>
               </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-base-100">
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] ">
                 <div className="flex justify-between">
                   <div className="flex gap-2 p-2">
                     <img
@@ -1162,7 +1257,7 @@ function App() {
                       alt=""
                       srcset=""
                     />
-                    <h1>IS Markets</h1>
+                    <h1 className=" text-black font-qualy">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly">
@@ -1233,11 +1328,11 @@ function App() {
                     />
                   </div>
 
-                  <p>4.5 (70 Reviews)</p>
+                  <p className=" text-black">4.5 (70 Reviews)</p>
                 </div>
-                <p>Emma Watson</p>
+                <p className=" text-black">Emma Watson</p>
 
-                <p>
+                <p className=" text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
@@ -1248,19 +1343,19 @@ function App() {
                   </button>
                 </div>
               </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-base-100">
-                <div className="flex justify-between">
-                  <div className="flex gap-2 p-2">
+              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] ">
+                <div className="flex justify-between items-centers">
+                  <div className="flex gap-2 p-2 items-center">
                     <img
                       className="w-[55px] h-[55px] rounded-[30px]"
                       src="../public/logo1.png"
                       alt=""
                       srcset=""
                     />
-                    <h1>IS Markets</h1>
+                    <h1 className=" text-black font-qualy">IS Markets</h1>
                   </div>
 
-                  <div className="flex justify-evenly">
+                  <div className="flex justify-evenly items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21"
@@ -1328,106 +1423,11 @@ function App() {
                     />
                   </div>
 
-                  <p>4.5 (70 Reviews)</p>
+                  <p className=" text-black">4.5 (70 Reviews)</p>
                 </div>
-                <p>Emma Watson</p>
+                <p className=" text-black">Emma Watson</p>
 
-                <p>
-                  General Risk Warning: CFDs are leveraged products. Trading in
-                  CFDs carries a high level of risk thus may no
-                </p>
-
-                <div className="mt-11">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B]">
-                    View Broker Profile
-                  </button>
-                </div>
-              </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-base-100">
-                <div className="flex justify-between">
-                  <div className="flex gap-2 p-2">
-                    <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
-                      src="../public/logo1.png"
-                      alt=""
-                      srcset=""
-                    />
-                    <h1>IS Markets</h1>
-                  </div>
-
-                  <div className="flex justify-evenly">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="21"
-                      height="20"
-                      viewBox="0 0 21 20"
-                      fill="none"
-                    >
-                      <path
-                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    <img
-                      className="w-[49px] h-[25px]"
-                      src="../public/logo2.png"
-                      alt=""
-                      srcset=""
-                    />
-                  </div>
-                </div>
-
-                {/*  */}
-                <div className="flex ">
-                  <div className="rating">
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="1 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="2 star"
-                      defaultChecked
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="3 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="4 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="5 star"
-                    />
-                  </div>
-
-                  <p>4.5 (70 Reviews)</p>
-                </div>
-                <p>Emma Watson</p>
-
-                <p>
+                <p className=" text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
@@ -1474,7 +1474,7 @@ function App() {
           <div className="grid grid-cols-1 gap-3 lg:grid-cols-4 md:grid md:grid-cols-2 sm:grid">
             {/* 1 */}
 
-            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full bg-base-100">
+            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full">
               {/* a */}
               <div className="flex gap-2 p-4">
                 <img
@@ -1483,7 +1483,7 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p className="font-qualy">IS Markets</p>
+                <p className="font-qualy text-black">IS Markets</p>
               </div>
               {/* b */}
               <div className="flex gap-2 p-4">
@@ -1493,10 +1493,10 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p>IS Markets</p>
+                <p className=" text-black">IS Markets</p>
               </div>
             </div>
-            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full bg-base-100">
+            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full ">
               {/* a */}
               <div className="flex gap-2 p-4">
                 <img
@@ -1505,7 +1505,7 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p className=" text-26px font-qualy">IS Markets</p>
+                <p className=" text-26px text text-black font-qualy">IS Markets</p>
               </div>
               {/* b */}
               <div className="flex gap-2 p-4">
@@ -1515,10 +1515,10 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p className=" text-26px font-qualy">IS Markets</p>
+                <p className=" text-26px text-black font-qualy">IS Markets</p>
               </div>
             </div>
-            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full bg-base-100">
+            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full ">
               {/* a */}
               <div className="flex gap-2 p-4">
                 <img
@@ -1527,7 +1527,7 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p>IS Markets</p>
+                <p className=" text-black font-qualy">IS Markets</p>
               </div>
               {/* b */}
               <div className="flex gap-2 p-4 items-center">
@@ -1537,10 +1537,10 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p className="font-qualy">IS Markets</p>
+                <p className="font-qualy text-black">IS Markets</p>
               </div>
             </div>
-            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full bg-base-100">
+            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full ">
               {/* a */}
               <div className="flex gap-2 p-4">
                 <img
@@ -1549,7 +1549,7 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p className="font-qualy">IS Markets</p>
+                <p className="font-qualy text-black">IS Markets</p>
               </div>
               {/* b */}
               <div className="flex gap-2 p-4">
@@ -1559,7 +1559,7 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p className="font-qualy">IS Markets</p>
+                <p className="font-qualy text-black">IS Markets</p>
               </div>
             </div>
           </div>
