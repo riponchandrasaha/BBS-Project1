@@ -330,10 +330,10 @@ function App() {
       <section className="bg-[#E7EDF0] w-full rounded-tl-[50px] rounded-tr-[50px] rounded-bl-none rounded-br-none p-[30px] mt-9">
         {/* Section 3 */}
 
-        <div className="p-[30px] rounded-[50px] border border-[#0037571f] bg-white py-9 lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] sm:mr-[5px] sm:ml-[5px]">
+        <div className="lg:p-[30px] md:p-[20px] sm:p-[12px] p-[12px] rounded-[50px] border border-[#0037571f] bg-white lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] sm:mr-[5px] sm:ml-[5px]">
           {/* logo */}
-          <div className="flex gap-2">
-            <div className="flex w-[44px] h-[44px] p-[16px] justify-center items-center gap-[10px] rounded-[32px] border-[1px] border-[#0037571f]">
+          <div className="flex gap-[15px]">
+            <div className="flex w-[44px] h-[44px] justify-center items-center gap-[10px] rounded-[32px] border-[1px] border-[#0037571f]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -380,14 +380,14 @@ function App() {
                 </defs>
               </svg>
             </div>
-            <h1 className="font-qualy w-[721px] text-black lg:text-[30px] md:text-[20px] sm:text-[14px] text-[14px]">
+            <h1 className="font-qualy w-[721px] lg:mb-[20px] mb:mb-[15px] sm:mb-[10px]  text-black lg:text-[30px] md:text-[20px] sm:text-[14px] text-[14px] ">
               How Investari Tests, Reviews, and Ranks Brokers
             </h1>
           </div>
           {/* text */}
           <div className="lg:grid-cols-2 lg:grid md:grid md:grid-cols-1 gap-[20px] sm:grid sm:grid-cols-1 grid grid-cols-1">
             {/* div1 */}
-            <h2 className=" text-[18px] text-black ">
+            <h2 className=" lg:text-[18px] md:text-[14px] sm:text-[12px] text-[12px] text-black ">
               CInvestari's broker review process follows a rigorous methodology.
               Our financial experts, with extensive industry experience,
               evaluate brokers across multiple categories using hundreds of data
@@ -398,11 +398,11 @@ function App() {
             </h2>
             {/* div2 */}
             <div className=" grid grid-cols-1 gap-[20px]  ">
-              <p className=" text-[18px] text-black">
+              <p className=" lg:text-[18px] md:text-[14px] sm:text-[12px] text-[12px] text-black">
                 Our transparent and expert-driven approach makes Investari the
                 go-to platform for identifying top-tier financial brokers.
               </p>
-              <button className="btn text-white flex w-full h-[62px] px-[22px] py-[20px] justify-center items-center gap-[10px] self-stretch rounded-[40px] bg-[#00A89B]">
+              <button className="btn lg:text-[18px] md:text-[14px] sm:text-[12px] text-[12px] text-white flex w-full h-[62px] lg:p-[20px_22px] md:p-[16px_18px] sm:p-[14px_16px] p-[14px_16px] justify-center items-center gap-[10px] self-stretch rounded-[40px] bg-[#00A89B]">
                 Read Full Methodology
               </button>
             </div>
@@ -410,10 +410,10 @@ function App() {
         </div>
 
         {/* section 4 */}
-        <div className="p-[30px] py-9 rounded-[50px] mt-[20px] border border-[#0037571f] bg-white lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] sm:mr-[5px] sm:ml-[5px]">
+        <div className="lg:p-[30px] md:p-[20px] sm:p-[12px] p-[12px] rounded-[50px] mt-[20px] border border-[#0037571f] bg-white lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] sm:mr-[5px] sm:ml-[5px]">
           {/* text1 */}
-          <div className="flex gap-2 mt-[20px]">
-            <div className="flex w-[44px] h-[44px] font-[Qualy] p-[16px] justify-center items-center gap-[10px] rounded-[32px] border-[1px] border-[#0037571f]">
+          <div className="flex gap-[10px] mt-[20px]">
+            <div className="flex w-[44px] h-[44px] font-[Qualy]  justify-center items-center gap-[10px] rounded-[32px] border-[1px] border-[#0037571f]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -452,7 +452,7 @@ function App() {
             </h1>
           </div>
           {/* text2 */}
-          <div className="lg:w-1/2 mt-[20px] text-black ">
+          <div className="lg:w-1/2 mt-[20px] lg:text-[18px] md:text-[14px] sm:text-[12px] text-[14px] text-black ">
             Whether you're trading stocks, forex, bonds, or crypto, Investari's
             expert guides and rankings help you find the best brokers tailored
             to your investment goals and trading strategies. Explore our
@@ -467,7 +467,7 @@ function App() {
             <div className=" gap-[10px] lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 grid grid-cols-1 w-full">
               {/* 1 */}
               <div className="rounded-[45px] border-[1px]  border-[#0037571f] flex items-center justify-center">
-                <div className=" p-[40px] text-center flex justify-center flex-col items-center">
+                <div className=" lg:p-[40px] md:p-[30px] sm:p-[20px] p-[20px] lg:gap-[40px] md:gap-[20px] sm:gap-[10px] gap-[10px] text-center flex justify-center flex-col items-center">
                   <svg
                     className="rounded-[65.455px]  bg-[#FFC338] w-[80px] h-[80px] "
                     xmlns="http://www.w3.org/2000/svg"
@@ -484,12 +484,12 @@ function App() {
                     />
                   </svg>
 
-                  <h1 className=" text-[26px] font-qualy text-black">Best Brokers</h1>
+                  <h1 className="  font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best Brokers</h1>
                 </div>
               </div>
               {/* 2 */}
               <div className="rounded-[45px] border-[1px]  border-[#0037571f] flex items-center justify-center">
-                <div className=" p-[40px] text-center flex justify-center flex-col items-center">
+                <div className=" lg:p-[40px] md:p-[30px] sm:p-[20px] p-[20px] lg:gap-[40px] md:gap-[20px] sm:gap-[10px] gap-[10px] text-center flex justify-center flex-col items-center">
                   <svg
                     className="rounded-[65.455px]  bg-[#FFC338] w-[80px] h-[80px] "
                     xmlns="http://www.w3.org/2000/svg"
@@ -506,12 +506,12 @@ function App() {
                     />
                   </svg>
 
-                  <h1 className=" text-[26px] font-qualy text-black">Best Platforms</h1>
+                  <h1 className="  font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best Platforms</h1>
                 </div>
               </div>
               {/* 3 */}
-              <div className="rounded-[45px] border-[1px]  border-[#0037571f] flex items-center justify-center">
-                <div className=" p-[40px] text-center flex justify-center flex-col items-center">
+               <div className="rounded-[45px] border-[1px]  border-[#0037571f] flex items-center justify-center">
+                <div className=" lg:p-[40px] md:p-[30px] sm:p-[20px] p-[20px] lg:gap-[40px] md:gap-[20px] sm:gap-[10px] gap-[10px] text-center flex justify-center flex-col items-center">
                   <svg
                     className="rounded-[65.455px]  bg-[#FFC338] w-[80px] h-[80px] "
                     xmlns="http://www.w3.org/2000/svg"
@@ -528,12 +528,12 @@ function App() {
                     />
                   </svg>
 
-                  <h1 className=" text-[26px] text-black font-qualy">Best Low Fee Brokers</h1>
+                  <h1 className="  font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best Low Fee Brokers</h1>
                 </div>
               </div>
               {/* 4 */}
               <div className="rounded-[45px] border-[1px]  border-[#0037571f] flex items-center justify-center">
-                <div className=" p-[40px] text-center flex justify-center flex-col items-center">
+                <div className=" lg:p-[40px] md:p-[30px] sm:p-[20px] p-[20px] lg:gap-[40px] md:gap-[20px] sm:gap-[10px] gap-[10px] text-center flex justify-center flex-col items-center">
                   <svg
                     className="rounded-[65.455px]  bg-[#FFC338] w-[80px] h-[80px] "
                     xmlns="http://www.w3.org/2000/svg"
@@ -550,22 +550,20 @@ function App() {
                     />
                   </svg>
 
-                  <h1 className=" text-[26px]  font-qualy text-[#003757]">
-                    Best for Beginners
-                  </h1>
+                  <h1 className="  font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best for Beginners</h1>
                 </div>
               </div>
             </div>
             {/* card2 */}
             <div className="">
-              <div className="w-full h-full bg-white rounded-[45px] border border-[rgba(0,55,87,0.12)] p-6">
+              <div className="w-full h-full bg-white rounded-[45px] border border-[rgba(0,55,87,0.12)] lg:p-[40px] md:p-[20px] sm:p-[15px] p-[15px]">
                 {/* a */}
                 <div>
-                  <h1 className="text-[26px] font-qualy text-black">Best Low Fee Brokers</h1>
+                  <h1 className=" font-qualy text-black  mb-[10px] lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">By Type</h1>
                   {/* 1 */}
-                  <div className="flex flex-wrap gap-5">
+                  <div className="flex flex-wrap gap-[10px]">
                     <div className="text-[#00A89B] p-[5px_10px] lg:text-[16px] md:text-[12px] sm:text-[12px] text-[12px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
-                      Best Fixed Income Brokers
+                    Best Fixed Income Brokers
                     </div>
                     {/* responsive */}
 
@@ -579,9 +577,9 @@ function App() {
                 </div>
                 {/* b */}
                 <div>
-                  <h1 className="text-[26px] font-qualy text-black">By Type</h1>
+                  <h1 className=" font-qualy my-[10px_10px] text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">By Experience</h1>
                   {/* 1 */}
-                  <div className="flex flex-wrap gap-5">
+                  <div className="flex flex-wrap gap-[10px]">
                     <div className="text-[#00A89B] p-[5px_10px] lg:text-[16px] md:text-[12px] sm:text-[12px] text-[12px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
                       Best Fixed Income Brokers
                     </div>
@@ -597,7 +595,7 @@ function App() {
                 </div>
                 {/* c */}
                 <div>
-                  <h1 className="text-[26px] font-qualy text-black">By Region</h1>
+                  <h1 className="lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px] font-qualy text-black my-[10px_10px]  ">By Region</h1>
                   {/* 1 */}
                   <div className="flex flex-wrap gap-5">
                     <div className="text-[#00A89B] p-[5px_10px] lg:text-[16px] md:text-[12px] sm:text-[12px] text-[12px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
@@ -614,13 +612,14 @@ function App() {
                   </div>
                 </div>
 
-                <h1 className="text-[26px] font-qualy text-black">
+                <h1 className=" font-qualy text-black mt-[30px] lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">
                   See all the brokers accepting clients from:
                 </h1>
                 {/* ** */}
                 <div className="flex justify-between gap-2 mt-4">
                   <button className="flex h-[62px] text-black p-[18px] justify-between items-center flex-1 rounded-[40px] border border-[rgba(0,55,87,0.12)] text-center ">
                     Armenia
+                    <img src="../public/chevron-down.svg" alt="" srcset="" />
                   </button>
                   <button className="flex justify-center h-[62px] p-[18px] items-center flex-1 rounded-[40px] bg-[rgba(0,55,87,0.12)] text-[#00A89B] text-[18px]  ">
                     See All Brokers
@@ -633,10 +632,10 @@ function App() {
 
         {/* seciton 5 */}
         <div className=" lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] sm:mr-5 sm:ml-5 ">
-          <div className="rounded-[50px] border gap-[20px]  border-[rgba(0,55,87,0.12)] bg-[#fff]  mt-4 p-[30px]">
+          <div className="rounded-[50px] border gap-[20px] lg:p-[30px] md:p-[20px] sm:p-[12px] p-[12px] border-[rgba(0,55,87,0.12)] bg-[#fff]  mt-4 ">
             {/* text */}
-            <div className="flex gap-2">
-              <div className="flex w-[44px] h-[44px] p-[16px] justify-center items-center gap-[10px] rounded-[32px] border-[1px] border-[#0037571f]">
+            <div className="flex gap-[10px]">
+              <div className="flex w-[44px] h-[44px]  justify-center items-center gap-[10px] rounded-[32px] border-[1px] border-[#0037571f]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="rounded-[32px] border border-[rgba(0,55,87,0.12)]"
@@ -671,23 +670,23 @@ function App() {
                   />
                 </svg>
               </div>
-              <h1 className="lg:text-[30px] text-black md:text-[20px] sm:text-[14px] text-[14px] font-bold ">
+              <h1 className="lg:text-[30px] font-qualy text-black md:text-[20px] sm:text-[14px] text-[14px] ">
                 Explore Broker Reviews
               </h1>
             </div>
 
             {/* 1 */}
             <div className="grid grid-cols-1 gap-[10px] mt-[10px] lg:grid-cols-4 lg:grid md:grid md:grid-cols-2 sm:grid sm:grid-cols-1">
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+              <div className="w-full lg:p-[20px]  md:p-[20px] sm:p-[15px] p-[15px]  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
                 <div className="flex justify-between items-center">
                   <div className="flex gap-2 p-2 items-center">
                     <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
+                      className="lg:w-[55px] md:w-[36px] md:h-[36px] sm:w-[32px] sm:h-[32px] w-[32px] h-[32px] lg:h-[55px] rounded-[30px]"
                       src="../public/logo1.png"
                       alt=""
                       srcset=""
                     />
-                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                    <h1 className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px] ">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly ">
@@ -767,22 +766,22 @@ function App() {
                   CFDs carries a high level of risk thus may no
                 </p>
 
-                <div className="mt-11">
+                <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
                   <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
               </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+              <div className="w-full lg:p-[20px]  md:p-[20px] sm:p-[15px] p-[15px]  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
                 <div className="flex justify-between items-center">
                   <div className="flex gap-2 p-2 items-center">
                     <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
+                      className="lg:w-[55px] md:w-[36px] md:h-[36px] sm:w-[32px] sm:h-[32px] w-[32px] h-[32px] lg:h-[55px] rounded-[30px]"
                       src="../public/logo1.png"
                       alt=""
                       srcset=""
                     />
-                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                    <h1 className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px] ">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly ">
@@ -862,22 +861,22 @@ function App() {
                   CFDs carries a high level of risk thus may no
                 </p>
 
-                <div className="mt-11">
+                <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
                   <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
               </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+              <div className="w-full lg:p-[20px]  md:p-[20px] sm:p-[15px] p-[15px]  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
                 <div className="flex justify-between items-center">
                   <div className="flex gap-2 p-2 items-center">
                     <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
+                      className="lg:w-[55px] md:w-[36px] md:h-[36px] sm:w-[32px] sm:h-[32px] w-[32px] h-[32px] lg:h-[55px] rounded-[30px]"
                       src="../public/logo1.png"
                       alt=""
                       srcset=""
                     />
-                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                    <h1 className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px] ">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly ">
@@ -957,22 +956,22 @@ function App() {
                   CFDs carries a high level of risk thus may no
                 </p>
 
-                <div className="mt-11">
+                <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
                   <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
               </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+             <div className="w-full lg:p-[20px]  md:p-[20px] sm:p-[15px] p-[15px]  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
                 <div className="flex justify-between items-center">
                   <div className="flex gap-2 p-2 items-center">
                     <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
+                      className="lg:w-[55px] md:w-[36px] md:h-[36px] sm:w-[32px] sm:h-[32px] w-[32px] h-[32px] lg:h-[55px] rounded-[30px]"
                       src="../public/logo1.png"
                       alt=""
                       srcset=""
                     />
-                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                    <h1 className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px] ">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly ">
@@ -1052,22 +1051,22 @@ function App() {
                   CFDs carries a high level of risk thus may no
                 </p>
 
-                <div className="mt-11">
+                <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
                   <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
               </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+              <div className="w-full lg:p-[20px]  md:p-[20px] sm:p-[15px] p-[15px]  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
                 <div className="flex justify-between items-center">
                   <div className="flex gap-2 p-2 items-center">
                     <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
+                      className="lg:w-[55px] md:w-[36px] md:h-[36px] sm:w-[32px] sm:h-[32px] w-[32px] h-[32px] lg:h-[55px] rounded-[30px]"
                       src="../public/logo1.png"
                       alt=""
                       srcset=""
                     />
-                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                    <h1 className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px] ">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly ">
@@ -1147,22 +1146,22 @@ function App() {
                   CFDs carries a high level of risk thus may no
                 </p>
 
-                <div className="mt-11">
+                <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
                   <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
               </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+              <div className="w-full lg:p-[20px]  md:p-[20px] sm:p-[15px] p-[15px]  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
                 <div className="flex justify-between items-center">
                   <div className="flex gap-2 p-2 items-center">
                     <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
+                      className="lg:w-[55px] md:w-[36px] md:h-[36px] sm:w-[32px] sm:h-[32px] w-[32px] h-[32px] lg:h-[55px] rounded-[30px]"
                       src="../public/logo1.png"
                       alt=""
                       srcset=""
                     />
-                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                    <h1 className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px] ">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly ">
@@ -1242,22 +1241,22 @@ function App() {
                   CFDs carries a high level of risk thus may no
                 </p>
 
-                <div className="mt-11">
+                <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
                   <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
               </div>
-              <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+              <div className="w-full lg:p-[20px]  md:p-[20px] sm:p-[15px] p-[15px]  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
                 <div className="flex justify-between items-center">
                   <div className="flex gap-2 p-2 items-center">
                     <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
+                      className="lg:w-[55px] md:w-[36px] md:h-[36px] sm:w-[32px] sm:h-[32px] w-[32px] h-[32px] lg:h-[55px] rounded-[30px]"
                       src="../public/logo1.png"
                       alt=""
                       srcset=""
                     />
-                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                    <h1 className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px] ">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly ">
@@ -1337,22 +1336,22 @@ function App() {
                   CFDs carries a high level of risk thus may no
                 </p>
 
-                <div className="mt-11">
+                <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
                   <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
               </div>
-             <div className="w-full p-3  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+             <div className="w-full lg:p-[20px]  md:p-[20px] sm:p-[15px] p-[15px]  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
                 <div className="flex justify-between items-center">
                   <div className="flex gap-2 p-2 items-center">
                     <img
-                      className="w-[55px] h-[55px] rounded-[30px]"
+                      className="lg:w-[55px] md:w-[36px] md:h-[36px] sm:w-[32px] sm:h-[32px] w-[32px] h-[32px] lg:h-[55px] rounded-[30px]"
                       src="../public/logo1.png"
                       alt=""
                       srcset=""
                     />
-                    <h1 className="font-qualy text-black text-[26px]">IS Markets</h1>
+                    <h1 className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px] ">IS Markets</h1>
                   </div>
 
                   <div className="flex justify-evenly ">
@@ -1432,7 +1431,7 @@ function App() {
                   CFDs carries a high level of risk thus may no
                 </p>
 
-                <div className="mt-11">
+                <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
                   <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
@@ -1447,10 +1446,10 @@ function App() {
         {/* section 6 */}
         {/*  card 1 */}
 
-        <div className="rounded-[32px] lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] border gap-[20px]  p-[30px] border-[rgba(0,55,87,0.12)] bg-[#fff] mt-4">
+        <div className="rounded-[32px] lg:p-[30px] md:p-[20px] sm:p-[12px] p-[12px] lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] border gap-[20px]   border-[rgba(0,55,87,0.12)] bg-[#fff] mt-4">
           {/* text */}
-          <div className="flex mb-[20px]">
-            <div className="flex w-[44px] h-[44px] p-[16px] justify-center items-center gap-[10px] rounded-[32px] border-[1px] border-[#0037571f]">
+          <div className="flex mb-[20px] gap-[15px]">
+            <div className="flex w-[44px] h-[44px] justify-center items-center gap-[10px] rounded-[32px] border-[1px] border-[#0037571f]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -1483,9 +1482,35 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p className="font-qualy text-black text-[24px]">IS Markets</p>
+                <p className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[18px] text-[18px] ">IS Markets</p>
               </div>
-              <p className="text-[26px] font-qualy text-[#E7EDF0] flex items-center justify-center">Vs</p>
+              <p className="lg:text-[26px] md:text-[20px] sm:text-[18px] text-[18px]  font-qualy text-[#E7EDF0] flex items-center justify-center">Vs</p>
+              {/* b */}
+              <div className="flex gap-2 p-4 items-center ">
+                <img
+                  className="w-[55px] h-[55px] rounded-[30px]"
+                  src="../public/image (2).png"
+                  alt=""
+                  srcset=""
+                />
+                <p className=" text-black font-qualy text-[26px]">AvaTrade</p>
+              </div>
+
+            </div>
+
+
+            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full">
+              {/* a */}
+              <div className="flex gap-2 p-4 items-center">
+                <img
+                  className="w-[55px] h-[55px] rounded-[30px]"
+                  src="../public/logo1.png"
+                  alt=""
+                  srcset=""
+                />
+                <p className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[18px] text-[18px] ">IS Markets</p>
+              </div>
+              <p className="lg:text-[26px] md:text-[20px] sm:text-[18px] text-[18px]  font-qualy text-[#E7EDF0] flex items-center justify-center">Vs</p>
               {/* b */}
               <div className="flex gap-2 p-4 items-center ">
                 <img
@@ -1508,9 +1533,9 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p className="font-qualy text-black text-[24px]">IS Markets</p>
+                <p className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[18px] text-[18px] ">IS Markets</p>
               </div>
-              <p className="text-[26px] font-qualy text-[#E7EDF0] flex items-center justify-center">Vs</p>
+              <p className="lg:text-[26px] md:text-[20px] sm:text-[18px] text-[18px]  font-qualy text-[#E7EDF0] flex items-center justify-center">Vs</p>
               {/* b */}
               <div className="flex gap-2 p-4 items-center ">
                 <img
@@ -1523,30 +1548,7 @@ function App() {
               </div>
 
             </div>
-            <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full">
-              {/* a */}
-              <div className="flex gap-2 p-4 items-center">
-                <img
-                  className="w-[55px] h-[55px] rounded-[30px]"
-                  src="../public/logo1.png"
-                  alt=""
-                  srcset=""
-                />
-                <p className="font-qualy text-black text-[24px]">IS Markets</p>
-              </div>
-              <p className="text-[26px] font-qualy text-[#E7EDF0] flex items-center justify-center">Vs</p>
-              {/* b */}
-              <div className="flex gap-2 p-4 items-center ">
-                <img
-                  className="w-[55px] h-[55px] rounded-[30px]"
-                  src="../public/image (2).png"
-                  alt=""
-                  srcset=""
-                />
-                <p className=" text-black font-qualy text-[26px]">AvaTrade</p>
-              </div>
 
-            </div>
             <div className="border border-[rgba(0,55,87,0.12)] rounded-[45px] w-full">
               {/* a */}
               <div className="flex gap-2 p-4 items-center">
@@ -1556,9 +1558,9 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p className="font-qualy text-black text-[24px]">IS Markets</p>
+                <p className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[18px] text-[18px] ">IS Markets</p>
               </div>
-              <p className="text-[26px] font-qualy text-[#E7EDF0] flex items-center justify-center">Vs</p>
+              <p className="lg:text-[26px] md:text-[20px] sm:text-[18px] text-[18px]  font-qualy text-[#E7EDF0] flex items-center justify-center">Vs</p>
               {/* b */}
               <div className="flex gap-2 p-4 items-center ">
                 <img
