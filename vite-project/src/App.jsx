@@ -7,130 +7,34 @@ function App() {
     <div className=" bg-[#D0E6E8]   ">
       {/* Section 1 */}
       {/* Navbar */}
-      <div className="shadow-sm navbar md:px-25">
-        <div className="navbar-start">
-          <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              {/* responsive button */}
-              <button className=" bg-[#00A89B] text-white rounded-[40px] gap-[6px] pt-1.5 pr-2 pb-1.5 pl-3">
-                Menu
-                <svg
-                  className="rounded-[40px] w-5 h-5 shrink-0 bg-[rgba(186,198,213,0.25)]"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  viewBox="1 0 9 11"
-                  fill="none"
-                >
-                  <path
-                    d="M1.5625 3.625H8.4375M1.5625 5.5H8.4375M1.5625 7.375H8.4375"
-                    stroke="#003757"
-                    stroke-miterlimit="7"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </button>
-            </div>
-            {/* after clicking menu button */}
-            <ul
-              tabIndex={0}
-              className="p-2 mt-3 shadow menu menu-sm dropdown-content bg-[#fff] rounded-box  md:w-full"
-            >
-              <div className="justify-between w-full md:flex bg-[#fff]">
-                <div className="md:w-full text-[#003757] font-[Qualy] text-4xl md:text-[28px] font-qualy leading-normal">
-                  <ul>
-                    <li>
-                      <a className="text-4xl font-qualy">Brokers</a>
-                    </li>
-                    <li>
-                      <a className="text-4xl">Scam Alerts</a>
-                    </li>
-                    <li>
-                      <a className="text-4xl">Regulators</a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="md:w-1/2">
-                  <ul className="text-4xl text-black font-qualy">
-                    <li>
-                      <a className="text-4xl">Claims</a>
-                    </li>
-                    <li>
-                      <a className="text-4xl">Awards</a>
-                    </li>
-                    <li>
-                      <a href="" className="text-4xl">
-                        News
-                      </a>
-                    </li>
-                    <li>
-                      <a className="text-4xl">About Us</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <button className="flex w-full p-[16px_22px] justify-center items-center  rounded-[40px] text-white  bg-[#00A89B]">
-                Leave a Review
-              </button>
-            </ul>
+      <div className=" flex justify-between lg:p-[30px] md:p-[20px] sm:p-[12px] p-[12px]  text-[#003757] lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] sm:mr-[5px] sm:ml-[5px]">
+
+        <img src="/p1.png" className="w-[204px] h-[40px] " alt="" srcset="" />
+        <div className="flex gap-[6px]" >
+          <button className="p-[18px_22px] text-[16px] rounded-[40px] border text-[#003757] border-[rgba(0,55,87,0.12)]">Brokers</button>
+          <button className="p-[18px_22px] text-[16px] rounded-[40px] border text-[#003757] border-[rgba(0,55,87,0.12)]">Scam Alerts</button>
+          <button className="p-[18px_22px] text-[16px] rounded-[40px] border text-[#003757] border-[rgba(0,55,87,0.12)]">Regulators</button>
+          <button className="p-[18px_22px] text-[16px] rounded-[40px] border text-[#003757] border-[rgba(0,55,87,0.12)]">Claims</button>
+          <button className="p-[18px_22px] text-[16px] rounded-[40px] border text-[#003757] border-[rgba(0,55,87,0.12)]">Awards</button>
+          <button className="p-[18px_22px] text-[16px] rounded-[40px] border text-[#003757] border-[rgba(0,55,87,0.12)]">News</button>
+          <button className="p-[18px_22px] text-[16px] rounded-[40px] border text-[#003757] border-[rgba(0,55,87,0.12)]">About Us</button>
+
+        </div>
+
+        <div className="flex gap-[15px]">
+          <div className="rounded-[40px] bg-[rgba(186,198,213,0.25)] p-[18px] w-[55px] h-[55px]">
+            <svg className="w-[20px] h-[20px]" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+              <path d="M9.13633 3C7.92268 3 6.73628 3.35989 5.72717 4.03416C4.71806 4.70843 3.93155 5.66679 3.4671 6.78806C3.00266 7.90932 2.88114 9.14314 3.11791 10.3335C3.35468 11.5238 3.93911 12.6172 4.79729 13.4754C5.65547 14.3335 6.74886 14.918 7.93919 15.1547C9.12952 15.3915 10.3633 15.27 11.4846 14.8056C12.6059 14.3411 13.5642 13.5546 14.2385 12.5455C14.9128 11.5364 15.2727 10.35 15.2727 9.13633C15.2726 7.5089 14.626 5.94817 13.4753 4.7974C12.3245 3.64664 10.7638 3.0001 9.13633 3Z" stroke="#003757" stroke-width="1.5" stroke-miterlimit="10" />
+              <path d="M13.7148 13.7144L18.0004 17.9999" stroke="#003757" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" />
+            </svg>
+
           </div>
-
-          {/* Logo - visible on mobile and desktop, hidden on tablet */}
-          <a className="text-xl md:w-[204px] h-[40px] md:hidden lg:block">
-            <img
-              src="/p1.png"
-              alt="Button Image"
-              className="w-[204px] h-[40px] shrink-0"
-            />
-          </a>
-        </div>
-
-        {/* Centered logo for tablet - visible only on md screens */}
-        <div className="justify-center navbar-center md:flex lg:hidden">
-          <a className="text-xl w-[204px] h-[40px]">
-            <img
-              src="/p1.png"
-              alt="Button Image"
-              className="w-[204px] h-[40px] shrink-0"
-            />
-          </a>
-        </div>
-
-        {/* Desktop navigation - hidden on mobile and tablet */}
-        <div className="navbar-center hidden lg:flex justify-center gap-[10px]  rounded-[45px] font-title ">
-          <ul className="gap-6 text-[16px] font-normal menu menu-horizontal ">
-            {[
-              "Brokers",
-              "Scam Alerts",
-              "Regulators",
-              "Claims",
-              "Awards",
-              "News",
-              "About Us",
-            ].map((item) => (
-              <li
-                key={item}
-                className="flex p-[18px_22px] justify-center items-center gap-[10px] rounded-[40px] border border-[#003757]/12 text-[16px] hover:bg-white "
-              >
-                {item}
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="flex items-center gap-3 navbar-end">
-          {/* Search Icon visible on all devices */}
-          <div className="rounded-[40px] bg-[rgba(186,_198,_213,_0.25)] p-2">
-            <CiSearch className="text-lg text-[#003757]" />
-          </div>
-          <button className="hidden py-[18px] px-[22px] lg:block bg-[#00A89B] text-white rounded-[40px]">
-            Leave a Review
-          </button>
+          <button className="p-[18px_22px] bg-[#00A89B] text-[white] rounded-[40px]" >Leave a Review</button>
         </div>
       </div>
 
       {/* Section 2 */}
-      <section className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-1 gap-[20px] sm:grid sm:grid-cols-1 grid grid-cols-1 p-[30px] text-[#003757] lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] sm:mr-[5px] sm:ml-[5px]">
+      <section className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-1 gap-[20px] sm:grid sm:grid-cols-1 grid grid-cols-1 lg:p-[30px] md:p-[20px] sm:p-[12px] p-[12px]  text-[#003757] lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] sm:mr-[5px] sm:ml-[5px]">
         {/* div 1 */}
         <div className="grid grid-cols-1">
           {/* text */}
@@ -140,7 +44,7 @@ function App() {
               <h2> Broker for You</h2>
             </div>
 
-            <p className="mt-4 text-lg md:text-[14px] text-[#003757] font-[Inter Tight] text-[18px] w-[711px]">
+            <p className="mt-[20px] w-[711px] text-lg md:text-[14px] text-[#003757] font-[Inter Tight] text-[18px] w-[711px]">
               Since its inception, Investari has been the trusted source for
               expert, data-driven reviews of financial brokers across all
               sectors, including forex, stocks, bonds, crypto, and more. Our
@@ -327,7 +231,7 @@ function App() {
         </div>
       </section>
       {/* curved section */}
-      <section className="bg-[#E7EDF0] w-full rounded-tl-[50px] rounded-tr-[50px] rounded-bl-none rounded-br-none p-[30px] mt-9">
+      <section className="bg-[#E7EDF0] w-full rounded-tl-[50px] rounded-tr-[50px] rounded-bl-none rounded-br-none lg:py-[80px] md:py-[30px] sm:py-[15px] py-[15px]">
         {/* Section 3 */}
 
         <div className="lg:p-[30px] md:p-[20px] sm:p-[12px] p-[12px] rounded-[50px] border border-[#0037571f] bg-white lg:mr-[100px] lg:ml-[100px] md:mr-[20px] md:ml-[20px] sm:mr-[5px] sm:ml-[5px]">
@@ -387,7 +291,7 @@ function App() {
           {/* text */}
           <div className="lg:grid-cols-2 lg:grid md:grid md:grid-cols-1 gap-[20px] sm:grid sm:grid-cols-1 grid grid-cols-1">
             {/* div1 */}
-            <h2 className=" lg:text-[18px] md:text-[14px] sm:text-[12px] text-[12px] text-black ">
+            <h2 className="font:InterTight lg:text-[18px] md:text-[14px] sm:text-[12px] text-[12px] text-black ">
               CInvestari's broker review process follows a rigorous methodology.
               Our financial experts, with extensive industry experience,
               evaluate brokers across multiple categories using hundreds of data
@@ -402,7 +306,7 @@ function App() {
                 Our transparent and expert-driven approach makes Investari the
                 go-to platform for identifying top-tier financial brokers.
               </p>
-              <button className="btn lg:text-[18px] md:text-[14px] sm:text-[12px] text-[12px] text-white flex w-full h-[62px] lg:p-[20px_22px] md:p-[16px_18px] sm:p-[14px_16px] p-[14px_16px] justify-center items-center gap-[10px] self-stretch rounded-[40px] bg-[#00A89B]">
+              <button className="btn btn-ghost lg:text-[18px] md:text-[14px] sm:text-[12px] text-[12px] text-white flex w-full h-[62px] lg:p-[20px_22px] md:p-[16px_18px] sm:p-[14px_16px] p-[14px_16px] justify-center items-center gap-[10px] self-stretch rounded-[40px] bg-[#00A89B]">
                 Read Full Methodology
               </button>
             </div>
@@ -484,7 +388,7 @@ function App() {
                     />
                   </svg>
 
-                  <h1 className="  font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best Brokers</h1>
+                  <h1 className="  font-qualy lg:text-[26px] text-[#003757] md:text-[20px] sm:text-[14px] text-[14px]">Best Brokers</h1>
                 </div>
               </div>
               {/* 2 */}
@@ -506,11 +410,11 @@ function App() {
                     />
                   </svg>
 
-                  <h1 className="  font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best Platforms</h1>
+                  <h1 className="  font-qualy text-[#003757] lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best Platforms</h1>
                 </div>
               </div>
               {/* 3 */}
-               <div className="rounded-[45px] border-[1px]  border-[#0037571f] flex items-center justify-center">
+              <div className="rounded-[45px] border-[1px]  border-[#0037571f] flex items-center justify-center">
                 <div className=" lg:p-[40px] md:p-[30px] sm:p-[20px] p-[20px] lg:gap-[40px] md:gap-[20px] sm:gap-[10px] gap-[10px] text-center flex justify-center flex-col items-center">
                   <svg
                     className="rounded-[65.455px]  bg-[#FFC338] w-[80px] h-[80px] "
@@ -528,7 +432,7 @@ function App() {
                     />
                   </svg>
 
-                  <h1 className="  font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best Low Fee Brokers</h1>
+                  <h1 className="  font-qualy text-[#003757] lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best Low Fee Brokers</h1>
                 </div>
               </div>
               {/* 4 */}
@@ -550,7 +454,7 @@ function App() {
                     />
                   </svg>
 
-                  <h1 className="  font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best for Beginners</h1>
+                  <h1 className="  font-qualy text-[#003757] lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best for Beginners</h1>
                 </div>
               </div>
             </div>
@@ -563,7 +467,7 @@ function App() {
                   {/* 1 */}
                   <div className="flex flex-wrap gap-[10px]">
                     <div className="text-[#00A89B] p-[5px_10px] lg:text-[16px] md:text-[12px] sm:text-[12px] text-[12px] flex  justify-center rounded-[20px] bg-[rgba(0,168,155,0.10)]">
-                    Best Fixed Income Brokers
+                      Best Fixed Income Brokers
                     </div>
                     {/* responsive */}
 
@@ -759,15 +663,15 @@ function App() {
 
                   <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
                 </div>
-                <p  className="text-black">Emma Watson</p>
+                <p className="text-black">Emma Watson</p>
 
-                <p  className="text-black">
+                <p className="text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
 
                 <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                  <button className="rounded-[40px] p-[20px_22px] btn btn-ghost text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
@@ -854,15 +758,15 @@ function App() {
 
                   <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
                 </div>
-                <p  className="text-black">Emma Watson</p>
+                <p className="text-black">Emma Watson</p>
 
-                <p  className="text-black">
+                <p className="text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
 
                 <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                  <button className="rounded-[40px] p-[20px_22px] btn btn-ghost text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
@@ -949,110 +853,15 @@ function App() {
 
                   <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
                 </div>
-                <p  className="text-black">Emma Watson</p>
+                <p className="text-black">Emma Watson</p>
 
-                <p  className="text-black">
+                <p className="text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
 
                 <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
-                    View Broker Profile
-                  </button>
-                </div>
-              </div>
-             <div className="w-full lg:p-[20px]  md:p-[20px] sm:p-[15px] p-[15px]  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
-                <div className="flex justify-between items-center">
-                  <div className="flex gap-2 p-2 items-center">
-                    <img
-                      className="lg:w-[55px] md:w-[36px] md:h-[36px] sm:w-[32px] sm:h-[32px] w-[32px] h-[32px] lg:h-[55px] rounded-[30px]"
-                      src="../public/logo1.png"
-                      alt=""
-                      srcset=""
-                    />
-                    <h1 className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px] ">IS Markets</h1>
-                  </div>
-
-                  <div className="flex justify-evenly ">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="21"
-                      height="20"
-                      viewBox="0 0 21 20"
-                      fill="none"
-                    >
-                      <path
-                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
-                        stroke="#00A89B"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    <img
-                      className="w-[49px] h-[25px]"
-                      src="../public/logo2.png"
-                      alt=""
-                      srcset=""
-                    />
-                  </div>
-                </div>
-
-                {/*  */}
-                <div className="flex ">
-                  <div className="rating">
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="1 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="2 star"
-                      defaultChecked
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="3 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="4 star"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      className="bg-orange-400 mask mask-star-2"
-                      aria-label="5 star"
-                    />
-                  </div>
-
-                  <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
-                </div>
-                <p  className="text-black">Emma Watson</p>
-
-                <p  className="text-black">
-                  General Risk Warning: CFDs are leveraged products. Trading in
-                  CFDs carries a high level of risk thus may no
-                </p>
-
-                <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                  <button className="rounded-[40px] p-[20px_22px] btn btn-ghost text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
@@ -1139,15 +948,15 @@ function App() {
 
                   <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
                 </div>
-                <p  className="text-black">Emma Watson</p>
+                <p className="text-black">Emma Watson</p>
 
-                <p  className="text-black">
+                <p className="text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
 
                 <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                  <button className="rounded-[40px] p-[20px_22px] btn btn-ghost text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
@@ -1234,15 +1043,15 @@ function App() {
 
                   <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
                 </div>
-                <p  className="text-black">Emma Watson</p>
+                <p className="text-black">Emma Watson</p>
 
-                <p  className="text-black">
+                <p className="text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
 
                 <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                  <button className="rounded-[40px] p-[20px_22px] btn btn-ghost text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
@@ -1329,20 +1138,20 @@ function App() {
 
                   <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
                 </div>
-                <p  className="text-black">Emma Watson</p>
+                <p className="text-black">Emma Watson</p>
 
-                <p  className="text-black">
+                <p className="text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
 
                 <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                  <button className="rounded-[40px] p-[20px_22px] btn btn-ghost text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
               </div>
-             <div className="w-full lg:p-[20px]  md:p-[20px] sm:p-[15px] p-[15px]  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+              <div className="w-full lg:p-[20px]  md:p-[20px] sm:p-[15px] p-[15px]  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
                 <div className="flex justify-between items-center">
                   <div className="flex gap-2 p-2 items-center">
                     <img
@@ -1424,15 +1233,110 @@ function App() {
 
                   <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
                 </div>
-                <p  className="text-black">Emma Watson</p>
+                <p className="text-black">Emma Watson</p>
 
-                <p  className="text-black">
+                <p className="text-black">
                   General Risk Warning: CFDs are leveraged products. Trading in
                   CFDs carries a high level of risk thus may no
                 </p>
 
                 <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
-                  <button className="rounded-[40px] p-[20px_22px] btn text-white w-full h-[62px] bg-[#00A89B] ">
+                  <button className="rounded-[40px] p-[20px_22px] btn btn-ghost text-white w-full h-[62px] bg-[#00A89B] ">
+                    View Broker Profile
+                  </button>
+                </div>
+              </div>
+              <div className="w-full lg:p-[20px]  md:p-[20px] sm:p-[15px] p-[15px]  rounded-[40px] border border-[rgba(0,55,87,0.12)] bg-white">
+                <div className="flex justify-between items-center">
+                  <div className="flex gap-2 p-2 items-center">
+                    <img
+                      className="lg:w-[55px] md:w-[36px] md:h-[36px] sm:w-[32px] sm:h-[32px] w-[32px] h-[32px] lg:h-[55px] rounded-[30px]"
+                      src="../public/logo1.png"
+                      alt=""
+                      srcset=""
+                    />
+                    <h1 className="font-qualy text-black lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px] ">IS Markets</h1>
+                  </div>
+
+                  <div className="flex justify-evenly ">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="21"
+                      height="20"
+                      viewBox="0 0 21 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M10.5003 18.3337C15.0837 18.3337 18.8337 14.5837 18.8337 10.0003C18.8337 5.41699 15.0837 1.66699 10.5003 1.66699C5.91699 1.66699 2.16699 5.41699 2.16699 10.0003C2.16699 14.5837 5.91699 18.3337 10.5003 18.3337Z"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6.95801 9.99993L9.31634 12.3583L14.0413 7.6416"
+                        stroke="#00A89B"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <img
+                      className="w-[49px] h-[25px]"
+                      src="../public/logo2.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                </div>
+
+                {/*  */}
+                <div className="flex ">
+                  <div className="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="1 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="2 star"
+                      defaultChecked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="3 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="4 star"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      className="bg-orange-400 mask mask-star-2"
+                      aria-label="5 star"
+                    />
+                  </div>
+
+                  <p className="text-black text-[18px]">4.5 (70 Reviews)</p>
+                </div>
+                <p className="text-black">Emma Watson</p>
+
+                <p className="text-black">
+                  General Risk Warning: CFDs are leveraged products. Trading in
+                  CFDs carries a high level of risk thus may no
+                </p>
+
+                <div className="lg:mt-[20px] md:mt-[15px] sm:mt-[10px] mt-[10px]">
+                  <button className="rounded-[40px] p-[20px_22px] btn btn-ghost text-white w-full h-[62px] bg-[#00A89B] ">
                     View Broker Profile
                   </button>
                 </div>
@@ -1493,7 +1397,7 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p className=" text-black font-qualy text-[26px]">AvaTrade</p>
+                <p className=" text-black font-qualy lg:text-[26px] md:text-[20px] sm:text-[18px] text-[18px]">AvaTrade</p>
               </div>
 
             </div>
@@ -1519,7 +1423,7 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p className=" text-black font-qualy text-[26px]">AvaTrade</p>
+                <p className=" text-black font-qualy lg:text-[26px] md:text-[20px] sm:text-[18px] text-[18px]">AvaTrade</p>
               </div>
 
             </div>
@@ -1544,7 +1448,7 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p className=" text-black font-qualy text-[26px]">AvaTrade</p>
+                <p className=" text-black font-qualy lg:text-[26px] md:text-[20px] sm:text-[18px] text-[18px]">AvaTrade</p>
               </div>
 
             </div>
@@ -1569,7 +1473,7 @@ function App() {
                   alt=""
                   srcset=""
                 />
-                <p className=" text-black font-qualy text-[26px]">AvaTrade</p>
+                <p className=" text-black font-qualy lg:text-[26px] md:text-[20px] sm:text-[18px] text-[18px]">AvaTrade</p>
               </div>
 
             </div>
@@ -1617,7 +1521,7 @@ function App() {
               </button>
             </div>
             {/* c */}
-            <div className="flex justify-center gap-2 mt-4 lg:justify-start lg:mt-0">
+            <div className="flex justify-center gap-2 lg:justify-start lg:mt-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="rounded-[40px] bg-[#03A9F4]"
