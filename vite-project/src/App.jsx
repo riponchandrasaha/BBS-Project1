@@ -55,7 +55,7 @@ function App() {
           </div>
 
           {/* PRIMARY CTA BUTTON - Full width on medium devices */}
-          <button className="btn font-normal bg-[#00A89B] rounded-[40px] flex text-white w-full md:w-full lg:w-[300px] text-[18px] h-[62px] p-[20px_22px] justify-center items-center">
+          <button className="btn btn-ghost bg-[#00A89B] rounded-[40px] flex text-white w-full md:w-full lg:w-[300px] text-[18px] h-[62px] p-[20px_22px] justify-center">
             Search all brokers
           </button>
         </div>
@@ -372,21 +372,7 @@ function App() {
               {/* 1 */}
               <div className="rounded-[45px] border-[1px]  border-[#0037571f] flex items-center justify-center">
                 <div className=" lg:p-[40px] md:p-[30px] sm:p-[20px] p-[20px] lg:gap-[40px] md:gap-[20px] sm:gap-[10px] gap-[10px] text-center flex justify-center flex-col items-center">
-                  <svg
-                    className="rounded-[65.455px]  bg-[#FFC338] w-[80px] h-[80px] "
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="41"
-                    height="40"
-                    viewBox="0 0 41 40"
-                    fill="none"
-                  >
-                    <path
-                      d="M10.5 8.33333V15M10.5 8.33333C10.5 6.49238 11.9924 5 13.8333 5H27.1667C29.0076 5 30.5 6.49238 30.5 8.33333M10.5 8.33333H8.83333C6.99238 8.33333 5.5 9.82571 5.5 11.6667C5.5 13.5076 6.99238 15 8.83333 15H10.5M10.5 15C10.5 20.5228 14.9771 25 20.5 25M30.5 15V8.33333M30.5 15C30.5 20.5228 26.0228 25 20.5 25M30.5 15H32.1667C34.0076 15 35.5 13.5076 35.5 11.6667C35.5 9.82571 34.0076 8.33333 32.1667 8.33333L30.5 8.33333M20.5 25V28.3333M20.5 28.3333C20.5 32.0152 21.8181 35 25.5 35M20.5 28.3333C20.5 32.0152 19.1819 35 15.5 35M25.5 35H15.5M25.5 35H27.1667M15.5 35H13.8333"
-                      stroke="white"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                    />
-                  </svg>
+                     <img className="bg-[#FFC338] rounded-[65px] w-[88] h-[88] p-[32px] gap-[20px]" src="../public/trophy.svg" alt="" srcset="" />
 
                   <h1 className="  font-qualy lg:text-[26px] text-[#003757] md:text-[20px] sm:text-[14px] text-[14px]">Best Brokers</h1>
                 </div>
@@ -394,43 +380,14 @@ function App() {
               {/* 2 */}
               <div className="rounded-[45px] border-[1px]  border-[#0037571f] flex items-center justify-center">
                 <div className=" lg:p-[40px] md:p-[30px] sm:p-[20px] p-[20px] lg:gap-[40px] md:gap-[20px] sm:gap-[10px] gap-[10px] text-center flex justify-center flex-col items-center">
-                  <svg
-                    className="rounded-[65.455px]  bg-[#FFC338] w-[80px] h-[80px] "
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="41"
-                    height="40"
-                    viewBox="0 0 41 40"
-                    fill="none"
-                  >
-                    <path
-                      d="M10.5 8.33333V15M10.5 8.33333C10.5 6.49238 11.9924 5 13.8333 5H27.1667C29.0076 5 30.5 6.49238 30.5 8.33333M10.5 8.33333H8.83333C6.99238 8.33333 5.5 9.82571 5.5 11.6667C5.5 13.5076 6.99238 15 8.83333 15H10.5M10.5 15C10.5 20.5228 14.9771 25 20.5 25M30.5 15V8.33333M30.5 15C30.5 20.5228 26.0228 25 20.5 25M30.5 15H32.1667C34.0076 15 35.5 13.5076 35.5 11.6667C35.5 9.82571 34.0076 8.33333 32.1667 8.33333L30.5 8.33333M20.5 25V28.3333M20.5 28.3333C20.5 32.0152 21.8181 35 25.5 35M20.5 28.3333C20.5 32.0152 19.1819 35 15.5 35M25.5 35H15.5M25.5 35H27.1667M15.5 35H13.8333"
-                      stroke="white"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                    />
-                  </svg>
-
+                 <img className="bg-[#FFC338] rounded-[65px] w-[88] h-[88] p-[32px] gap-[20px]" src="../public/bullseye.svg" alt="" srcset="" />
                   <h1 className="  font-qualy text-[#003757] lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best Platforms</h1>
                 </div>
               </div>
               {/* 3 */}
               <div className="rounded-[45px] border-[1px]  border-[#0037571f] flex items-center justify-center">
                 <div className=" lg:p-[40px] md:p-[30px] sm:p-[20px] p-[20px] lg:gap-[40px] md:gap-[20px] sm:gap-[10px] gap-[10px] text-center flex justify-center flex-col items-center">
-                  <svg
-                    className="rounded-[65.455px]  bg-[#FFC338] w-[80px] h-[80px] "
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="41"
-                    height="40"
-                    viewBox="0 0 41 40"
-                    fill="none"
-                  >
-                    <path
-                      d="M10.5 8.33333V15M10.5 8.33333C10.5 6.49238 11.9924 5 13.8333 5H27.1667C29.0076 5 30.5 6.49238 30.5 8.33333M10.5 8.33333H8.83333C6.99238 8.33333 5.5 9.82571 5.5 11.6667C5.5 13.5076 6.99238 15 8.83333 15H10.5M10.5 15C10.5 20.5228 14.9771 25 20.5 25M30.5 15V8.33333M30.5 15C30.5 20.5228 26.0228 25 20.5 25M30.5 15H32.1667C34.0076 15 35.5 13.5076 35.5 11.6667C35.5 9.82571 34.0076 8.33333 32.1667 8.33333L30.5 8.33333M20.5 25V28.3333M20.5 28.3333C20.5 32.0152 21.8181 35 25.5 35M20.5 28.3333C20.5 32.0152 19.1819 35 15.5 35M25.5 35H15.5M25.5 35H27.1667M15.5 35H13.8333"
-                      stroke="white"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                    />
-                  </svg>
+                    <img className="bg-[#FFC338] rounded-[65px] w-[88] h-[88] p-[32px] gap-[20px]" src="../public/coins.svg" alt="" srcset="" />
 
                   <h1 className="  font-qualy text-[#003757] lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best Low Fee Brokers</h1>
                 </div>
@@ -438,21 +395,7 @@ function App() {
               {/* 4 */}
               <div className="rounded-[45px] border-[1px]  border-[#0037571f] flex items-center justify-center">
                 <div className=" lg:p-[40px] md:p-[30px] sm:p-[20px] p-[20px] lg:gap-[40px] md:gap-[20px] sm:gap-[10px] gap-[10px] text-center flex justify-center flex-col items-center">
-                  <svg
-                    className="rounded-[65.455px]  bg-[#FFC338] w-[80px] h-[80px] "
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="41"
-                    height="40"
-                    viewBox="0 0 41 40"
-                    fill="none"
-                  >
-                    <path
-                      d="M10.5 8.33333V15M10.5 8.33333C10.5 6.49238 11.9924 5 13.8333 5H27.1667C29.0076 5 30.5 6.49238 30.5 8.33333M10.5 8.33333H8.83333C6.99238 8.33333 5.5 9.82571 5.5 11.6667C5.5 13.5076 6.99238 15 8.83333 15H10.5M10.5 15C10.5 20.5228 14.9771 25 20.5 25M30.5 15V8.33333M30.5 15C30.5 20.5228 26.0228 25 20.5 25M30.5 15H32.1667C34.0076 15 35.5 13.5076 35.5 11.6667C35.5 9.82571 34.0076 8.33333 32.1667 8.33333L30.5 8.33333M20.5 25V28.3333M20.5 28.3333C20.5 32.0152 21.8181 35 25.5 35M20.5 28.3333C20.5 32.0152 19.1819 35 15.5 35M25.5 35H15.5M25.5 35H27.1667M15.5 35H13.8333"
-                      stroke="white"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                    />
-                  </svg>
+                   <img className="bg-[#FFC338] rounded-[65px] w-[88] h-[88] p-[32px] gap-[20px]" src="../public/dot.svg" alt="" srcset="" />
 
                   <h1 className="  font-qualy text-[#003757] lg:text-[26px] md:text-[20px] sm:text-[14px] text-[14px]">Best for Beginners</h1>
                 </div>
